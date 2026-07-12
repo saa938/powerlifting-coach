@@ -232,6 +232,48 @@ export class QuotaError extends Error {
   }
 }
 
+// --- Burst rate limit ---------------------------------------------------------
+// The weekly/monthly quota above caps total spend but not *rate* — a script
+// could still fire dozens of Gemini calls in a few seconds, which is what
+// actually risks tripping Gemini's own free-tier rate limits or running up
+// latency for everyone. This is a short-window cap on top of the quota,
+// applied regardless of plan (even 'coach' unlimited-AI accounts are capped —
+// it protects the shared API key, not the bill).
+export const AI_BURST_LIMIT = 8;
+export const AI_BURST_WINDOW_MS = 60_000;
+
+export interface RateLimitInfo {
+  limit: number;
+  windowMs: number;
+}
+
+/** Thrown by assertAiRateLimit when too many AI calls land in one window.
+ *  Routes should map this to HTTP 429 (Too Many Requests). */
+export class RateLimitError extends Error {
+  readonly status = 429;
+  constructor(readonly info: RateLimitInfo) {
+    super(`AI rate limit reached (${info.limit} calls per ${info.windowMs / 1000}s) — slow down.`);
+    this.name = 'RateLimitError';
+  }
+}
+
+export async function assertAiRateLimit(accountType: AccountType, accountId: string): Promise<void> {
+  const used = await countAiCalls(accountType, accountId, Date.now() - AI_BURST_WINDOW_MS);
+  if (used >= AI_BURST_LIMIT) {
+    throw new RateLimitError({ limit: AI_BURST_LIMIT, windowMs: AI_BURST_WINDOW_MS });
+  }
+}
+
+/** Combined gate every AI-calling route should use: burst limit first (cheap,
+ *  catches scripted abuse immediately), then the weekly/monthly quota. */
+export async function assertAiAllowed(
+  accountType: AccountType,
+  accountId: string,
+): Promise<Entitlement> {
+  await assertAiRateLimit(accountType, accountId);
+  return assertAiQuota(accountType, accountId);
+}
+
 export async function assertFormCheckQuota(athleteId: string): Promise<Entitlement> {
   const ent = await athleteEntitlement(athleteId);
   const cap = ent.caps.formChecks;

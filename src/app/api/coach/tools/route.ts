@@ -4,6 +4,7 @@ import { requireCoachOwns } from '@/lib/coach-auth';
 import { loadCoachingData } from '@/lib/coach-data';
 import { execute, queryOne, uuid } from '@/lib/db';
 import { aiGenerate, isAiKeyError, safeParseJson } from '@/lib/ai';
+import { assertAiAllowed, recordAiCall, QuotaError, RateLimitError } from '@/lib/limits';
 import { PROGRAM_SYSTEM_PROMPT, buildProgramUserPrompt } from '@/lib/prompts/program';
 import type { AthleteProfile, Program } from '@/lib/types';
 
@@ -19,20 +20,42 @@ export async function POST(req: NextRequest) {
   const parsed = Body.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: 'invalid body' }, { status: 400 });
 
+  let coach;
   try {
-    await requireCoachOwns(parsed.data.athleteId);
+    coach = await requireCoachOwns(parsed.data.athleteId);
   } catch (e) {
     const status = e instanceof Error && e.message === 'FORBIDDEN' ? 403 : 401;
     return NextResponse.json({ error: 'not allowed' }, { status });
   }
 
-  if (parsed.data.tool === 'draft-program') {
-    return draftProgram(parsed.data.athleteId);
+  // Both tools call Gemini — meter them against the coach's own AI quota
+  // (free coaches share the same 30/week cap as athletes; paid 'coach' plan
+  // is unlimited on quota but still burst-limited).
+  try {
+    await assertAiAllowed('coach', coach.id);
+  } catch (err) {
+    if (err instanceof QuotaError) {
+      return NextResponse.json(
+        { error: 'You’ve reached your AI tool limit for this period. Upgrade for more.', quota: err.info },
+        { status: 402 },
+      );
+    }
+    if (err instanceof RateLimitError) {
+      return NextResponse.json(
+        { error: 'Too many AI requests — wait a moment and try again.' },
+        { status: 429 },
+      );
+    }
+    throw err;
   }
-  return analyze(parsed.data.athleteId);
+
+  if (parsed.data.tool === 'draft-program') {
+    return draftProgram(parsed.data.athleteId, coach.id);
+  }
+  return analyze(parsed.data.athleteId, coach.id);
 }
 
-async function draftProgram(athleteId: string) {
+async function draftProgram(athleteId: string, coachId: string) {
   const row = await queryOne<{ profile_json: string | null }>(
     'SELECT profile_json FROM athletes WHERE id = ?',
     [athleteId],
@@ -68,12 +91,13 @@ async function draftProgram(athleteId: string) {
       Date.now(),
     ],
   );
+  await recordAiCall('coach', coachId, 'coach-draft-program');
   return NextResponse.json({ ok: true, weeks: program.weeks.length });
 }
 
 const ANALYZE_SYSTEM = `You are an elite powerlifting coach assistant. Given an athlete's profile, current program, and recent training logs, write a concise fatigue and volume analysis for the HEAD COACH (not the athlete). Be specific and actionable: call out fatigue signals, volume imbalances between lifts, stalling, and one or two concrete adjustments. 120 words max. Plain text, no preamble.`;
 
-async function analyze(athleteId: string) {
+async function analyze(athleteId: string, coachId: string) {
   const data = await loadCoachingData(athleteId);
   if (!data) return NextResponse.json({ error: 'no coaching data' }, { status: 400 });
 
@@ -108,5 +132,6 @@ async function analyze(athleteId: string) {
     const msg = err instanceof Error ? err.message : 'AI call failed';
     return NextResponse.json({ error: msg }, { status: isAiKeyError(err) ? 400 : 502 });
   }
+  await recordAiCall('coach', coachId, 'coach-analyze');
   return NextResponse.json({ ok: true, analysis: text.trim() });
 }
