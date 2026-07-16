@@ -1,4 +1,4 @@
-# IRON LEDGER — AI Powerlifting Coach
+# LIFTLY — AI Powerlifting Coach
 
 Block periodization. Coach-quality form check from your phone. Macros that respect your sport.
 
