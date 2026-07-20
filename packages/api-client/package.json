@@ -1,0 +1,19 @@
+{
+  "name": "@liftly/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@liftly/shared-types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

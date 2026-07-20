@@ -1,0 +1,17 @@
+// Used only by `npm run typecheck` (tsc), never by Babel/Metro at runtime.
+// The "react" path override forces tsc to resolve react-native's own
+// `import ... from 'react'` to this workspace's @types/react, instead of the
+// hoisted root @types/react (React 18, for the Next.js app) — the two collide
+// on ReactNode's `bigint` member. Kept out of tsconfig.json because
+// babel-preset-expo also reads tsconfig `paths` and would apply this same
+// alias at runtime, breaking the Metro bundle (react has no `@types` at runtime).
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "react": ["./node_modules/@types/react"],
+      "react/jsx-runtime": ["./node_modules/@types/react/jsx-runtime"]
+    }
+  }
+}
