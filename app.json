@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "62eb074f-7361-4ac4-88c0-3c8cd1c8181b"
+      }
+    },
+    "owner": "saa938s-team",
+    "slug": "liftly",
+    "android": {
+      "package": "com.saa938steam.liftly"
+    },
+    "ios": {
+      "bundleIdentifier": "com.saa938steam.liftly",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
