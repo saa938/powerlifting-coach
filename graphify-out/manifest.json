@@ -1,377 +1,2527 @@
 {
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\analysis.py": {
-    "mtime": 1780962487.540153,
-    "ast_hash": "e8c5726b40fc27234dee49abb75bee13",
-    "semantic_hash": "e8c5726b40fc27234dee49abb75bee13"
+  "cv-service/analysis.py": {
+    "mtime": 1781264594.8943965,
+    "ast_hash": "6cf7379e2419b785473219a55cf7422f",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\app.py": {
-    "mtime": 1780861319.7789793,
-    "ast_hash": "61c0773644eb82d251e0a903c3bc4ad9",
-    "semantic_hash": "61c0773644eb82d251e0a903c3bc4ad9"
+  "cv-service/app.py": {
+    "mtime": 1781339853.278201,
+    "ast_hash": "82ef27db08bd27a79df00cf8e15828cb",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\bar.py": {
+  "cv-service/bar.py": {
     "mtime": 1780789593.7278981,
     "ast_hash": "969e0e6f7645012fe41697504e7fbc0a",
     "semantic_hash": "969e0e6f7645012fe41697504e7fbc0a"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\debug_dl_seg.py": {
+  "cv-service/debug_dl_seg.py": {
     "mtime": 1780863865.3832734,
     "ast_hash": "fbfbc07164f04e3bdc2a843aa93b4d58",
     "semantic_hash": "fbfbc07164f04e3bdc2a843aa93b4d58"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\download_model.py": {
+  "cv-service/download_model.py": {
     "mtime": 1779052697.4078703,
     "ast_hash": "deb37c9eb2de78c407fe4c483901fe2b",
     "semantic_hash": "deb37c9eb2de78c407fe4c483901fe2b"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\eval_samples.py": {
+  "cv-service/eval_samples.py": {
     "mtime": 1780717237.5739331,
     "ast_hash": "3b62ffc2f6d145dee203cc920ed3fe40",
     "semantic_hash": "3b62ffc2f6d145dee203cc920ed3fe40"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\pose.py": {
-    "mtime": 1780962373.2415607,
-    "ast_hash": "66f4d73cf9fe52e92a53f22923f4711c",
-    "semantic_hash": "66f4d73cf9fe52e92a53f22923f4711c"
+  "cv-service/pose.py": {
+    "mtime": 1781258791.473272,
+    "ast_hash": "3e9375f06baab0bcc68e27f3fff4dedc",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\pose_yolo.py": {
-    "mtime": 1780962433.8519065,
-    "ast_hash": "f4fdb46f5b3ee12c670849fc25f20fd4",
-    "semantic_hash": "f4fdb46f5b3ee12c670849fc25f20fd4"
+  "cv-service/pose_yolo.py": {
+    "mtime": 1781338416.3825424,
+    "ast_hash": "5b5675dd7c385abd421c01a377e12bfa",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\visual_eval.py": {
-    "mtime": 1780861435.13027,
-    "ast_hash": "58c615e27052cd52805498e56386c4e2",
-    "semantic_hash": "58c615e27052cd52805498e56386c4e2"
+  "cv-service/visual_eval.py": {
+    "mtime": 1781258823.5731528,
+    "ast_hash": "a5abddfafa291ebc59c3d2bc6177db22",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\yolo_probe.py": {
+  "cv-service/yolo_probe.py": {
     "mtime": 1780807542.0937748,
     "ast_hash": "4864eb104910616008b85f015dfa8188",
     "semantic_hash": "4864eb104910616008b85f015dfa8188"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\next-env.d.ts": {
+  "next-env.d.ts": {
     "mtime": 1777244093.4144719,
     "ast_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838",
     "semantic_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\next.config.mjs": {
-    "mtime": 1780104461.286877,
-    "ast_hash": "b542a96c2f4925f8b309978f1ee0fba4",
-    "semantic_hash": "b542a96c2f4925f8b309978f1ee0fba4"
+  "next.config.mjs": {
+    "mtime": 1781245089.676818,
+    "ast_hash": "d4d748dbf5d74e0e7a32600b539c95a1",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\package.json": {
-    "mtime": 1780105047.7972481,
-    "ast_hash": "acbec9bbbe05de9fedbddf515a586425",
-    "semantic_hash": "acbec9bbbe05de9fedbddf515a586425"
+  "package.json": {
+    "mtime": 1784523824.30565,
+    "ast_hash": "576f5d6ff7e42479282c4af33044fc47",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\postcss.config.mjs": {
+  "postcss.config.mjs": {
     "mtime": 1777242479.331172,
     "ast_hash": "c735540bb63936a123bc867d950c9f69",
     "semantic_hash": "c735540bb63936a123bc867d950c9f69"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\scripts\\init-db.ts": {
-    "mtime": 1777243303.4083362,
-    "ast_hash": "7e1c00c1ef9596a0903aaee4666d8ca7",
-    "semantic_hash": "7e1c00c1ef9596a0903aaee4666d8ca7"
+  "scripts/init-db.ts": {
+    "mtime": 1781245089.6788168,
+    "ast_hash": "ff2bfbe2f95e1bad5b801bf379b7df1e",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\chat\\ChatView.tsx": {
-    "mtime": 1780775513.0213017,
-    "ast_hash": "d13dbe66b4abf7f8d88f9d620ff7bafb",
-    "semantic_hash": "d13dbe66b4abf7f8d88f9d620ff7bafb"
+  "src/app/(app)/chat/ChatView.tsx": {
+    "mtime": 1783839609.8822367,
+    "ast_hash": "9ceac2ddffeb5560f0d8e3f1146e1e8f",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\chat\\page.tsx": {
-    "mtime": 1777243124.555432,
-    "ast_hash": "a240a01fbb14439affb02adc254e3426",
-    "semantic_hash": "a240a01fbb14439affb02adc254e3426"
+  "src/app/(app)/chat/page.tsx": {
+    "mtime": 1781245089.6847074,
+    "ast_hash": "7a54844d5bc96fe9e085edf21879f46c",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\dashboard\\page.tsx": {
-    "mtime": 1780775425.7708972,
-    "ast_hash": "cca10519d2677839c81817c7fc1ee99f",
-    "semantic_hash": "cca10519d2677839c81817c7fc1ee99f"
+  "src/app/(app)/dashboard/page.tsx": {
+    "mtime": 1783839609.8842416,
+    "ast_hash": "e4ee11e181ee767030145289e021b52d",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\formcheck\\FormCheckClient.tsx": {
-    "mtime": 1780775482.7343209,
-    "ast_hash": "f234a0b77defc8c02cd8f3c178471b5f",
-    "semantic_hash": "f234a0b77defc8c02cd8f3c178471b5f"
+  "src/app/(app)/formcheck/FormCheckClient.tsx": {
+    "mtime": 1783839609.8862426,
+    "ast_hash": "58a2630f6095127352e6340ab88c7ec9",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\formcheck\\page.tsx": {
-    "mtime": 1780377459.0706594,
-    "ast_hash": "2076af1f0d6a7059e9cdd44f48976a01",
-    "semantic_hash": "2076af1f0d6a7059e9cdd44f48976a01"
+  "src/app/(app)/formcheck/page.tsx": {
+    "mtime": 1783839609.8862426,
+    "ast_hash": "7353606bc6593aeaf37e867ce1baea23",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\layout.tsx": {
-    "mtime": 1777242885.7652805,
-    "ast_hash": "b980bf6ab78a9d6d0fd02d286499899c",
-    "semantic_hash": "b980bf6ab78a9d6d0fd02d286499899c"
+  "src/app/(app)/layout.tsx": {
+    "mtime": 1781245089.6912193,
+    "ast_hash": "d672866359dd9049ba56b4cd76aa4e70",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\nutrition\\NutritionView.tsx": {
-    "mtime": 1780880926.956609,
-    "ast_hash": "a0d62a4a0e87d71ddbf97bc7e5c13a1b",
-    "semantic_hash": "a0d62a4a0e87d71ddbf97bc7e5c13a1b"
+  "src/app/(app)/nutrition/NutritionView.tsx": {
+    "mtime": 1783839609.8882422,
+    "ast_hash": "8aa1db9fc159a4fadf0f0f64bcc297f7",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\nutrition\\page.tsx": {
-    "mtime": 1780880875.6538334,
-    "ast_hash": "42b365b74acc932805b70ad0e8294782",
-    "semantic_hash": "42b365b74acc932805b70ad0e8294782"
+  "src/app/(app)/nutrition/page.tsx": {
+    "mtime": 1783839609.8882422,
+    "ast_hash": "cf0f6011973f30f6052597e0616fc039",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\profile\\ProfileView.tsx": {
-    "mtime": 1780881015.8873029,
-    "ast_hash": "515bcd56bf60e04587d970e787fb211e",
-    "semantic_hash": "515bcd56bf60e04587d970e787fb211e"
+  "src/app/(app)/profile/ProfileView.tsx": {
+    "mtime": 1783839609.8893685,
+    "ast_hash": "c88bfb67324806e395642d9ee408c0ae",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\profile\\page.tsx": {
-    "mtime": 1777243149.6169026,
-    "ast_hash": "052318f071a3c7d7e4123f8fd09a547d",
-    "semantic_hash": "052318f071a3c7d7e4123f8fd09a547d"
+  "src/app/(app)/profile/page.tsx": {
+    "mtime": 1783839609.890369,
+    "ast_hash": "844381fdfc8d52bb3d25f017dd5d685b",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\program\\LogSessionModal.tsx": {
-    "mtime": 1780381948.6678605,
-    "ast_hash": "16caf13721c9ceecdd70c01dcdba3a52",
-    "semantic_hash": "16caf13721c9ceecdd70c01dcdba3a52"
+  "src/app/(app)/program/LogSessionModal.tsx": {
+    "mtime": 1781245089.6947298,
+    "ast_hash": "34b55dff1cbc975bd9af7c78d166e2cd",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\program\\ProgramView.tsx": {
-    "mtime": 1780775527.2916956,
-    "ast_hash": "99d9f4bdd3d45bfc3cc0af7bb77dc6cd",
-    "semantic_hash": "99d9f4bdd3d45bfc3cc0af7bb77dc6cd"
+  "src/app/(app)/program/ProgramView.tsx": {
+    "mtime": 1783839609.890369,
+    "ast_hash": "e0800b84b3ba77857578b74b647db8c4",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\program\\page.tsx": {
-    "mtime": 1780377457.5414073,
-    "ast_hash": "403cc4d3aa760ce7ba47d18aad648aa5",
-    "semantic_hash": "403cc4d3aa760ce7ba47d18aad648aa5"
+  "src/app/(app)/program/page.tsx": {
+    "mtime": 1781908069.2839813,
+    "ast_hash": "5e0e2a3ea26d5891b1ea553865db2aec",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\progress\\ProgressView.tsx": {
-    "mtime": 1780377451.9354956,
-    "ast_hash": "93e9a3cc6174c7c7199dc57f0a480da5",
-    "semantic_hash": "93e9a3cc6174c7c7199dc57f0a480da5"
+  "src/app/(app)/progress/ProgressView.tsx": {
+    "mtime": 1781245089.698235,
+    "ast_hash": "a2a7905c9f9b85a9e1c13b1e0fef2003",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\(app)\\progress\\page.tsx": {
-    "mtime": 1777243094.562601,
-    "ast_hash": "24be5119bc61302704e716ab1694faa8",
-    "semantic_hash": "24be5119bc61302704e716ab1694faa8"
+  "src/app/(app)/progress/page.tsx": {
+    "mtime": 1781907586.3231096,
+    "ast_hash": "c0488802d6d083ebf16cbca98c51ffe7",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\auth\\login\\route.ts": {
-    "mtime": 1777243182.7520337,
-    "ast_hash": "ebbf90fad944bda3cc295cb23f0293d6",
-    "semantic_hash": "ebbf90fad944bda3cc295cb23f0293d6"
+  "src/app/api/auth/logout/route.ts": {
+    "mtime": 1781125655.2550933,
+    "ast_hash": "e3b41251c38fc4cd15f7ff9a906f13f7",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\auth\\logout\\route.ts": {
-    "mtime": 1777243389.2346823,
-    "ast_hash": "8c24fa4f14064bf92d80c9216a749f31",
-    "semantic_hash": "8c24fa4f14064bf92d80c9216a749f31"
+  "src/app/api/chat/route.ts": {
+    "mtime": 1783875367.1722052,
+    "ast_hash": "a2dc9a93036cf7c2bd2f1a09fb7b3de3",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\chat\\route.ts": {
-    "mtime": 1780105222.6756003,
-    "ast_hash": "c8d1b514ad8d98a747fe18b25b5db3bd",
-    "semantic_hash": "c8d1b514ad8d98a747fe18b25b5db3bd"
+  "src/app/api/formcheck/calibrate/route.ts": {
+    "mtime": 1781245089.7057605,
+    "ast_hash": "2e5cb29018357e377478e177bb20044b",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\formcheck\\calibrate\\route.ts": {
-    "mtime": 1779326539.2818038,
-    "ast_hash": "45fe1b17f64ca514c5b3c572362326a4",
-    "semantic_hash": "45fe1b17f64ca514c5b3c572362326a4"
+  "src/app/api/formcheck/route.ts": {
+    "mtime": 1781397743.8055267,
+    "ast_hash": "68d1b870c781fcdf3232bc1cf256a07d",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\formcheck\\route.ts": {
-    "mtime": 1780105975.3574424,
-    "ast_hash": "5f6c138dca966bb053e19a250663d02d",
-    "semantic_hash": "5f6c138dca966bb053e19a250663d02d"
+  "src/app/api/nutrition/generate/route.ts": {
+    "mtime": 1783875381.102549,
+    "ast_hash": "8bdd2637e89fded3891d716cc4a5ab2a",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\nutrition\\generate\\route.ts": {
-    "mtime": 1780864761.037321,
-    "ast_hash": "0c86978e11f10f5aa38a054a091a25cb",
-    "semantic_hash": "0c86978e11f10f5aa38a054a091a25cb"
+  "src/app/api/onboarding/route.ts": {
+    "mtime": 1783875373.544593,
+    "ast_hash": "fad701958a65692b048bed8937198405",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\onboarding\\route.ts": {
-    "mtime": 1780105962.1598039,
-    "ast_hash": "47f1d831ae054e6e0da4480142ceb105",
-    "semantic_hash": "47f1d831ae054e6e0da4480142ceb105"
+  "src/app/api/program/adjust/route.ts": {
+    "mtime": 1781245089.7092648,
+    "ast_hash": "e947a7de0e208bf99f330f63c98b1ec4",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\program\\adjust\\route.ts": {
-    "mtime": 1780103407.0410707,
-    "ast_hash": "f037774d5b58493188faaa0269deaa14",
-    "semantic_hash": "f037774d5b58493188faaa0269deaa14"
+  "src/app/api/program/regenerate/route.ts": {
+    "mtime": 1783875377.181909,
+    "ast_hash": "c39e69c25afbb5457778bcd5f2b97858",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\program\\regenerate\\route.ts": {
-    "mtime": 1780105936.7183623,
-    "ast_hash": "35c5cf1b7d94ec6410182561eeea7be9",
-    "semantic_hash": "35c5cf1b7d94ec6410182561eeea7be9"
+  "src/app/api/session/log-from-formcheck/route.ts": {
+    "mtime": 1781245089.7112706,
+    "ast_hash": "f612f7457602e373d38b8624d3b38593",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\session\\log-from-formcheck\\route.ts": {
-    "mtime": 1780103447.2808409,
-    "ast_hash": "db6904cf011d89372f479a1becb77b70",
-    "semantic_hash": "db6904cf011d89372f479a1becb77b70"
+  "src/app/api/session/log/route.ts": {
+    "mtime": 1781245089.7127755,
+    "ast_hash": "156dfbf5254c9aaba4401d2643d1767b",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\api\\session\\log\\route.ts": {
-    "mtime": 1777243229.4619322,
-    "ast_hash": "88e73a3c8795f46a7c2d64ce7776c542",
-    "semantic_hash": "88e73a3c8795f46a7c2d64ce7776c542"
+  "src/app/layout.tsx": {
+    "mtime": 1781300261.1556976,
+    "ast_hash": "d675e9bd29eff2a3b44a0d0a6eec65db",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\layout.tsx": {
-    "mtime": 1780380213.7636988,
-    "ast_hash": "7d947a391602222c98d2c436867a8fc0",
-    "semantic_hash": "7d947a391602222c98d2c436867a8fc0"
+  "src/app/login/page.tsx": {
+    "mtime": 1783839609.898368,
+    "ast_hash": "333fed170f85549afa292eed59115914",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\login\\page.tsx": {
-    "mtime": 1780775389.1316855,
-    "ast_hash": "9d4563d807cc6592ddf996e2c896d267",
-    "semantic_hash": "9d4563d807cc6592ddf996e2c896d267"
+  "src/app/onboarding/OnboardingWizard.tsx": {
+    "mtime": 1783839609.8995452,
+    "ast_hash": "1145c9c5ecc62bb2e9c68d4262013278",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\onboarding\\OnboardingWizard.tsx": {
-    "mtime": 1780880977.4193563,
-    "ast_hash": "ec4e81f4041573a7b73c524c9ad2c88c",
-    "semantic_hash": "ec4e81f4041573a7b73c524c9ad2c88c"
-  },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\onboarding\\page.tsx": {
+  "src/app/onboarding/page.tsx": {
     "mtime": 1777242816.8082373,
     "ast_hash": "489d34cee2caa01f1f84bc5fa92b5fc4",
     "semantic_hash": "489d34cee2caa01f1f84bc5fa92b5fc4"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\app\\page.tsx": {
-    "mtime": 1780775379.4950879,
-    "ast_hash": "f1b42257839f369621daa8a3d07fffa4",
-    "semantic_hash": "f1b42257839f369621daa8a3d07fffa4"
+  "src/app/page.tsx": {
+    "mtime": 1781504031.0890112,
+    "ast_hash": "d465779f84e43c21b0405f6bbf3eb6a8",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\layout\\AppShell.tsx": {
-    "mtime": 1780377140.6785355,
-    "ast_hash": "eda0659f365638c33f97e17784f61c29",
-    "semantic_hash": "eda0659f365638c33f97e17784f61c29"
+  "src/components/layout/AppShell.tsx": {
+    "mtime": 1781245089.7268448,
+    "ast_hash": "43b8ce4a6c8eac00048d0afd072ab273",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\nav\\MobileNav.tsx": {
-    "mtime": 1780381960.789193,
-    "ast_hash": "2d0166c3155127392fe484d9ec8d6e96",
-    "semantic_hash": "2d0166c3155127392fe484d9ec8d6e96"
+  "src/components/nav/MobileNav.tsx": {
+    "mtime": 1781402280.3382423,
+    "ast_hash": "1de946f845b0939a5f95cc9201f13c68",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\nav\\SideNav.tsx": {
-    "mtime": 1780380265.5444179,
-    "ast_hash": "16ae39af5abd7b34d6a3738150bf09d5",
-    "semantic_hash": "16ae39af5abd7b34d6a3738150bf09d5"
+  "src/components/nav/SideNav.tsx": {
+    "mtime": 1781504416.0833993,
+    "ast_hash": "db33d326aaab55fd53eaac0b69941c7b",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\Button.tsx": {
-    "mtime": 1780380248.9371989,
-    "ast_hash": "a401019d2feed54781bf03987e9b8738",
-    "semantic_hash": "a401019d2feed54781bf03987e9b8738"
+  "src/components/ui/Button.tsx": {
+    "mtime": 1781245089.7298915,
+    "ast_hash": "a0ebead9b5d86b71e088c5e9bce43667",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\Card.tsx": {
+  "src/components/ui/Card.tsx": {
     "mtime": 1777242744.9340513,
     "ast_hash": "69a9919e548fca06b33edd79a1b22796",
     "semantic_hash": "69a9919e548fca06b33edd79a1b22796"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\Input.tsx": {
+  "src/components/ui/Input.tsx": {
     "mtime": 1780378828.741678,
     "ast_hash": "2dd76ae20d6ac7b3bad6b14b0ec6f3db",
     "semantic_hash": "2dd76ae20d6ac7b3bad6b14b0ec6f3db"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\LiftlyLogo.tsx": {
+  "src/components/ui/LiftlyLogo.tsx": {
     "mtime": 1780120940.710019,
     "ast_hash": "2d3382e962746dd9f8cf6b841f299073",
     "semantic_hash": "2d3382e962746dd9f8cf6b841f299073"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\PlateSpinner.tsx": {
+  "src/components/ui/PlateSpinner.tsx": {
     "mtime": 1777242765.339149,
     "ast_hash": "624f96b41d808d58f2ad1261346647a1",
     "semantic_hash": "624f96b41d808d58f2ad1261346647a1"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\components\\ui\\RPEBadge.tsx": {
-    "mtime": 1777242761.5643618,
-    "ast_hash": "5a258e353e8b4ff3a9d05891e3b8b10f",
-    "semantic_hash": "5a258e353e8b4ff3a9d05891e3b8b10f"
+  "src/components/ui/RPEBadge.tsx": {
+    "mtime": 1781245067.6068294,
+    "ast_hash": "6f244e11112bcc76d03a1039f0bd99ee",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\ai.ts": {
+  "src/lib/ai.ts": {
     "mtime": 1780105921.4837906,
     "ast_hash": "bd5a302e06e78e8bd449d182a33aec65",
     "semantic_hash": "bd5a302e06e78e8bd449d182a33aec65"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\auth.ts": {
-    "mtime": 1777242565.0520008,
-    "ast_hash": "4f9ec4090d2d35e3fd90b212837d55d5",
-    "semantic_hash": "4f9ec4090d2d35e3fd90b212837d55d5"
+  "src/lib/auth.ts": {
+    "mtime": 1781853637.5005531,
+    "ast_hash": "c3ab9b8ff9301ffa7f6e5075f81945b8",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\calculations.ts": {
+  "src/lib/calculations.ts": {
     "mtime": 1780776527.373636,
     "ast_hash": "0483c60339e2f4e0c46d87f1a16e5c11",
     "semantic_hash": "0483c60339e2f4e0c46d87f1a16e5c11"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\cvService.ts": {
+  "src/lib/cvService.ts": {
     "mtime": 1779326113.9277422,
     "ast_hash": "6890ef1a2b573b910b416276d7f5743c",
     "semantic_hash": "6890ef1a2b573b910b416276d7f5743c"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\db.ts": {
-    "mtime": 1780864872.2582648,
-    "ast_hash": "10c1058a24cfca2246d5efb5ca2f8ee3",
-    "semantic_hash": "10c1058a24cfca2246d5efb5ca2f8ee3"
+  "src/lib/db.ts": {
+    "mtime": 1783839604.0156639,
+    "ast_hash": "da5cd139a32fe38608c28ff10fce88d9",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\nutrition-safety.ts": {
-    "mtime": 1780864624.2845547,
-    "ast_hash": "118c769fe28361de55f1255f255431cd",
-    "semantic_hash": "118c769fe28361de55f1255f255431cd"
+  "src/lib/nutrition-safety.ts": {
+    "mtime": 1782099694.5063982,
+    "ast_hash": "4111f7511a021dcce6e445991c5ac6e2",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\programming.ts": {
-    "mtime": 1780103378.3170452,
-    "ast_hash": "05678bcee0e77a5c8bdba893ee88c5d4",
-    "semantic_hash": "05678bcee0e77a5c8bdba893ee88c5d4"
+  "src/lib/programming.ts": {
+    "mtime": 1781067207.7185063,
+    "ast_hash": "1ce5df5855068ad628739d1a79be896b",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\prompts\\chat.ts": {
-    "mtime": 1777242705.193937,
-    "ast_hash": "43886beb8472a18c4cb35bb406c14805",
-    "semantic_hash": "43886beb8472a18c4cb35bb406c14805"
+  "src/lib/prompts/chat.ts": {
+    "mtime": 1781067207.7185063,
+    "ast_hash": "84a0d8b3474b106dad3172730c2477f0",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\prompts\\formcheck.ts": {
+  "src/lib/prompts/formcheck.ts": {
     "mtime": 1779330578.0783906,
     "ast_hash": "b1dc6852882a476248933c2b6d54e298",
     "semantic_hash": "b1dc6852882a476248933c2b6d54e298"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\prompts\\nutrition.ts": {
-    "mtime": 1780864695.984831,
-    "ast_hash": "47e34d95094f1f11b58be4a86f26a99a",
-    "semantic_hash": "47e34d95094f1f11b58be4a86f26a99a"
+  "src/lib/prompts/nutrition.ts": {
+    "mtime": 1782099694.5063982,
+    "ast_hash": "0f73f31ea022e412fc026cdf23e7f91f",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\prompts\\program.ts": {
+  "src/lib/prompts/program.ts": {
     "mtime": 1780103492.3385189,
     "ast_hash": "91068431686e404a94cdbbcf8eeb667e",
     "semantic_hash": "91068431686e404a94cdbbcf8eeb667e"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\types.ts": {
-    "mtime": 1780864839.9428763,
-    "ast_hash": "bf12826fbf001b7d27a7aea74e37b0c8",
-    "semantic_hash": "bf12826fbf001b7d27a7aea74e37b0c8"
+  "src/lib/types.ts": {
+    "mtime": 1782099694.5074635,
+    "ast_hash": "ea8b516c5cf86860a8eb0b575baf2c00",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\utils.ts": {
-    "mtime": 1777242607.8072603,
-    "ast_hash": "0ecac91f95ca4e4d1ed88741ff8af8ea",
-    "semantic_hash": "0ecac91f95ca4e4d1ed88741ff8af8ea"
+  "src/lib/utils.ts": {
+    "mtime": 1783839609.901545,
+    "ast_hash": "1e17c1fe4c77358d8808a2c4318ef440",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\src\\lib\\velocity.ts": {
+  "src/lib/velocity.ts": {
     "mtime": 1779330488.581837,
     "ast_hash": "7fa57fc37527f164e22e833f4932d57d",
     "semantic_hash": "7fa57fc37527f164e22e833f4932d57d"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\tailwind.config.ts": {
+  "tailwind.config.ts": {
     "mtime": 1780380201.1265166,
     "ast_hash": "a3a086dff55649681af25101d9117adf",
     "semantic_hash": "a3a086dff55649681af25101d9117adf"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\tsconfig.json": {
-    "mtime": 1777242432.455009,
-    "ast_hash": "354e9ad5b293f3b9b6d0a4f603cfb2d8",
-    "semantic_hash": "354e9ad5b293f3b9b6d0a4f603cfb2d8"
+  "tsconfig.json": {
+    "mtime": 1784523824.3166652,
+    "ast_hash": "82b2bd0cd76853c7fb9ccd2670b860e5",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\README.md": {
-    "mtime": 1779067212.0224495,
-    "ast_hash": "ede188d33628e1eb7a5e49c4bb94e251",
-    "semantic_hash": "ede188d33628e1eb7a5e49c4bb94e251"
+  "README.md": {
+    "mtime": 1784523823.8819065,
+    "ast_hash": "d93decb66bce1e9a918bb50b09e30a15",
+    "semantic_hash": ""
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\NEXT_SESSION_PROMPT.md": {
+  "cv-service/NEXT_SESSION_PROMPT.md": {
     "mtime": 1780803294.2726338,
     "ast_hash": "c32c582f2c3ef172f2ae6295e50bb6e0",
     "semantic_hash": "c32c582f2c3ef172f2ae6295e50bb6e0"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\README.md": {
+  "cv-service/README.md": {
     "mtime": 1779053761.3887427,
     "ast_hash": "63e16f5d22b659938ef04984f1b59789",
     "semantic_hash": "63e16f5d22b659938ef04984f1b59789"
   },
-  "C:\\Users\\ashay\\powerlifting-coach\\cv-service\\requirements.txt": {
+  "cv-service/requirements.txt": {
     "mtime": 1779052704.6737263,
     "ast_hash": "acc37657c27ac1f744e826fa0a37e76e",
     "semantic_hash": "acc37657c27ac1f744e826fa0a37e76e"
+  },
+  ".claude/settings.json": {
+    "mtime": 1781067207.5925386,
+    "ast_hash": "af5683cedca023035194f9ad92eb0eef",
+    "semantic_hash": ""
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1782083537.900064,
+    "ast_hash": "b9aa625f99f244d3bb381eff3ff9b5fe",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1784228704.704945,
+    "ast_hash": "f4d5b2a8e3dfda71e13dd7e2d44162e5",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/.obsidian/app.json": {
+    "mtime": 1782084411.3430521,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/.obsidian/appearance.json": {
+    "mtime": 1782084411.3440523,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/.obsidian/core-plugins.json": {
+    "mtime": 1782084410.877164,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/.obsidian/graph.json": {
+    "mtime": 1782084410.552,
+    "ast_hash": "da0efe3df3594d4c3a95e40c4565aa18",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/.obsidian/workspace.json": {
+    "mtime": 1782084411.385749,
+    "ast_hash": "030c658cdd4cb10020b8c0efa9b58bf3",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/app.json": {
+    "mtime": 1782084408.5606916,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/appearance.json": {
+    "mtime": 1782084408.562195,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/core-plugins.json": {
+    "mtime": 1782084408.093109,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/graph.json": {
+    "mtime": 1782084409.771,
+    "ast_hash": "2cf4cbe21da2969482fe695f781a39e1",
+    "semantic_hash": ""
+  },
+  ".obsidian/.obsidian/workspace.json": {
+    "mtime": 1782084408.6032586,
+    "ast_hash": "ed8acb8554fe8235be906246a93e23ef",
+    "semantic_hash": ""
+  },
+  ".obsidian/app.json": {
+    "mtime": 1782084307.9717753,
+    "ast_hash": "c983bf90ae0cfeb75c5da0ae3c18540c",
+    "semantic_hash": ""
+  },
+  ".understand-anything/fingerprints.json": {
+    "mtime": 1780775967.2122014,
+    "ast_hash": "eb41a8618852ed64185ea44a8af7bc24",
+    "semantic_hash": ""
+  },
+  ".understand-anything/knowledge-graph.json": {
+    "mtime": 1780775943.97108,
+    "ast_hash": "efabeb128b63e4196574d5d235e6e87b",
+    "semantic_hash": ""
+  },
+  ".understand-anything/meta.json": {
+    "mtime": 1780775972.5312622,
+    "ast_hash": "4457b09f04ddd163e8b9e834bcf36410",
+    "semantic_hash": ""
+  },
+  "apps/mobile/.claude/settings.json": {
+    "mtime": 1784523824.2750132,
+    "ast_hash": "0e5fa9ee1de7421260d9f6695b5b6683",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app.json": {
+    "mtime": 1784523824.2780151,
+    "ast_hash": "3b3b201ecb184be2d29b46c6a66187cd",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/_layout.tsx": {
+    "mtime": 1784523824.2790127,
+    "ast_hash": "3881b8868bf621be5638fd4c752d210a",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/formcheck/[id].tsx": {
+    "mtime": 1784523824.2790127,
+    "ast_hash": "7e132ac84972d156735687965e9394b5",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/formcheck/_layout.tsx": {
+    "mtime": 1784523824.280517,
+    "ast_hash": "c78955c044efb74c5058c2f6e9db5424",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/formcheck/capture.tsx": {
+    "mtime": 1784523824.280517,
+    "ast_hash": "679006c49d2fc9ba5a44612893d48d15",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/formcheck/index.tsx": {
+    "mtime": 1784523824.2815216,
+    "ast_hash": "9c9f08bfdce096bdcbbcedda7e179ef0",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/log-session.tsx": {
+    "mtime": 1784523824.2815216,
+    "ast_hash": "fefd000679e4f2786eb50234d0f62dd6",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/_layout.tsx": {
+    "mtime": 1784523824.2825253,
+    "ast_hash": "760df6f31869b60355c9bfd5375398e4",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/admin.tsx": {
+    "mtime": 1784523824.2825253,
+    "ast_hash": "84751c01d5f22ba5b3b6d822f0a2cd91",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/chat.tsx": {
+    "mtime": 1784523824.2835224,
+    "ast_hash": "7c7d7d6104e25ae6fc5ca13459c6f37c",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/coach.tsx": {
+    "mtime": 1784523824.2835224,
+    "ast_hash": "d3d5e27c7f4dde3d6335957531c17eda",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/index.tsx": {
+    "mtime": 1784523824.2835224,
+    "ast_hash": "426afbbeace99bf1d820e206c3cfa9ee",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/nutrition.tsx": {
+    "mtime": 1784523824.284522,
+    "ast_hash": "c8795fdf7b28a33526546c59a409829a",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/profile.tsx": {
+    "mtime": 1784523824.284522,
+    "ast_hash": "5e602848b78479b71e93857532e94560",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/settings.tsx": {
+    "mtime": 1784523824.2855222,
+    "ast_hash": "b7d6feb42f9acdf84c4a44d7e1915245",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/subscription.tsx": {
+    "mtime": 1784523824.2855222,
+    "ast_hash": "e966392b08582b562f5a448320b27be3",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/more/upgrade.tsx": {
+    "mtime": 1784523824.2855222,
+    "ast_hash": "9dd5dc8d617d3e9977acf471646a9623",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/onboarding.tsx": {
+    "mtime": 1784523824.286522,
+    "ast_hash": "af250f78eb80dc2326769fd35f76caf3",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/program.tsx": {
+    "mtime": 1784523824.286522,
+    "ast_hash": "4280b0f53d671dd521a7991d660c06b4",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/progress.tsx": {
+    "mtime": 1784523824.287522,
+    "ast_hash": "5409f982b7f28270ef2feaaf3c2e56af",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/readiness.tsx": {
+    "mtime": 1784523824.287522,
+    "ast_hash": "e9bc1c4049cc4c309cebb5067aeab4fa",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(app)/today.tsx": {
+    "mtime": 1784523824.287522,
+    "ast_hash": "02ddbc526dfba5c07ac1095311003d92",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(auth)/_layout.tsx": {
+    "mtime": 1784523824.2885213,
+    "ast_hash": "f034a84280f8f005ddb12031d6e67945",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(auth)/login.tsx": {
+    "mtime": 1784523824.2885213,
+    "ast_hash": "39571221547f95c51448450e7e5e4b60",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/(auth)/signup.tsx": {
+    "mtime": 1784523824.2885213,
+    "ast_hash": "28328d5445cc338f73afcedc5b0aad8a",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/_layout.tsx": {
+    "mtime": 1785115120.992658,
+    "ast_hash": "f6c49df46c3930f6033e537d073fd751",
+    "semantic_hash": ""
+  },
+  "apps/mobile/app/index.tsx": {
+    "mtime": 1784523824.289522,
+    "ast_hash": "b7e3427378400e1ae8b9936886c6390d",
+    "semantic_hash": ""
+  },
+  "apps/mobile/babel.config.js": {
+    "mtime": 1784523824.2945406,
+    "ast_hash": "a054b4303ea7d440e3f6a1dbf4d3a7e7",
+    "semantic_hash": ""
+  },
+  "apps/mobile/eas.json": {
+    "mtime": 1784523824.2955406,
+    "ast_hash": "8de28d86f327bc5f1c7badec66756c2e",
+    "semantic_hash": ""
+  },
+  "apps/mobile/metro.config.js": {
+    "mtime": 1784523824.2955406,
+    "ast_hash": "d5a7bb05d79d651b8c1540fed84eafd7",
+    "semantic_hash": ""
+  },
+  "apps/mobile/nativewind-env.d.ts": {
+    "mtime": 1784523824.2965403,
+    "ast_hash": "4b4993b59fc769e72985f21f5b239406",
+    "semantic_hash": ""
+  },
+  "apps/mobile/package.json": {
+    "mtime": 1784523824.2965403,
+    "ast_hash": "ccc0d8667b4437d4ac402e5f1359093f",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/api/client.ts": {
+    "mtime": 1784523824.2975397,
+    "ast_hash": "3fc7bafdc68855243b7374e3cb2100b5",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/api/useApi.ts": {
+    "mtime": 1784523824.2975397,
+    "ast_hash": "ec76b075d301eb091ffa72a14b6e0648",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/auth/AuthProvider.tsx": {
+    "mtime": 1784523824.2985404,
+    "ast_hash": "404f04b2e334ec7e2b3f5daad7f80fc2",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/components/ui.tsx": {
+    "mtime": 1784523824.2985404,
+    "ast_hash": "da1d5756399d7b80d6b03a40c7a41b53",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/env.ts": {
+    "mtime": 1784523824.2995398,
+    "ast_hash": "c121e745f009514f2032dbc89dd1f585",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/iap/purchases.ts": {
+    "mtime": 1784523824.2995398,
+    "ast_hash": "6d6fcd0916c21c5a9e4b9e922e003102",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/lib/format.ts": {
+    "mtime": 1784523824.3005397,
+    "ast_hash": "750b3e0bf80c86d41fe680bbe80632f5",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/lib/supabase.ts": {
+    "mtime": 1785115101.4351375,
+    "ast_hash": "4e09226cc054e9b8267480745d11096d",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/lib/upload.ts": {
+    "mtime": 1784523824.3005397,
+    "ast_hash": "51ea6b005aed06a3c1096257058fa83d",
+    "semantic_hash": ""
+  },
+  "apps/mobile/src/theme/useAppFonts.ts": {
+    "mtime": 1784523824.3016524,
+    "ast_hash": "e69bcbe1eea1f7e6386bc75cc095e277",
+    "semantic_hash": ""
+  },
+  "apps/mobile/tailwind.config.js": {
+    "mtime": 1784523824.3026533,
+    "ast_hash": "d13e0f67fe22fd25b0dd015e413fa404",
+    "semantic_hash": ""
+  },
+  "apps/mobile/tsconfig.json": {
+    "mtime": 1784523824.3026533,
+    "ast_hash": "9104a624e1c26785e920a512855f34ba",
+    "semantic_hash": ""
+  },
+  "apps/mobile/tsconfig.typecheck.json": {
+    "mtime": 1784523824.3026533,
+    "ast_hash": "29a3f76419c548a3be54ce4ba7406213",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/135_lb_bench_RPE_RPE_6.5.mp4.json": {
+    "mtime": 1780799835.246264,
+    "ast_hash": "c2c7cfa7d69961ffd98dec4764d29071",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/150_kg_bench_RPE_9.mp4.json": {
+    "mtime": 1780718435.0306597,
+    "ast_hash": "d62a5bcf7091857897b78d0084e5dbf4",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/150lb_bench_RPE_6.mp4.json": {
+    "mtime": 1780799797.3491986,
+    "ast_hash": "9057370a33313555f7ad822985f01c65",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/160_kg_bench_RPE_9.mp4.json": {
+    "mtime": 1780799590.2382574,
+    "ast_hash": "1224b4acfc4aa667e44cb57e9c5d7567",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/310_lb_bench_RPE_7.mp4.json": {
+    "mtime": 1780799634.6277273,
+    "ast_hash": "a5371d38f2e3fd78688b7ed50ce06290",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm/summary.json": {
+    "mtime": 1781265459.6880069,
+    "ast_hash": "3296fe90d7d386bc5c956e048a90748c",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm_deadlift/summary.json": {
+    "mtime": 1781265593.7086785,
+    "ast_hash": "71480650ca70101fa30f886747e6a301",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm_squat/summary.json": {
+    "mtime": 1781265549.3493457,
+    "ast_hash": "b22f06e3da7dc923daeb4b8aa1a2c9b4",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/summary.json": {
+    "mtime": 1780804115.0273955,
+    "ast_hash": "cebaf706fbee79a68753f240d2e3486c",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/summary.json": {
+    "mtime": 1780810869.8221788,
+    "ast_hash": "46a6ced90dd0010b6b589ccc38ff94b8",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/summary.json": {
+    "mtime": 1781067207.6525064,
+    "ast_hash": "f9b2e08cd6921b4b30120ea1b6c53cb6",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_squat/summary.json": {
+    "mtime": 1781247298.330426,
+    "ast_hash": "fc23a18e549bc2bf1e44fa08de71362a",
+    "semantic_hash": ""
+  },
+  "cv-service/modal_app.py": {
+    "mtime": 1782098574.1730747,
+    "ast_hash": "e579f6f1a981cd9a2dc8bda1cf62f4ef",
+    "semantic_hash": ""
+  },
+  "cv-service/pose_rtm.py": {
+    "mtime": 1781339862.1814547,
+    "ast_hash": "d5f98561ecbc34e2e042023cd9d05da7",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/bench__1jzn2i2.mp4.json": {
+    "mtime": 1781258327.126953,
+    "ast_hash": "951bfc804f6b298ae228fae321c427da",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/bench__1k74bhj.mp4.json": {
+    "mtime": 1781258327.2338214,
+    "ast_hash": "652d5f5e70ee2f6424e129e4ef07cc8a",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/bench__1kp9loz.mp4.json": {
+    "mtime": 1781258327.3094945,
+    "ast_hash": "f6f81da3ed028940d01eb6c188fdfa61",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/bench_close__c8v58n.mp4.json": {
+    "mtime": 1781258327.7213414,
+    "ast_hash": "108fd26c2499f3e3924a5564b516a3b0",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/bench_wide__bl06xu.mp4.json": {
+    "mtime": 1781258327.9264617,
+    "ast_hash": "ae3a0e7a3b9f0da7b3f16a957b9beba6",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/deadlift_conv__1kk370m.mp4.json": {
+    "mtime": 1781258328.3302362,
+    "ast_hash": "684c9403e9bf3b3ec9ab24e4a5a65309",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/deadlift_conv__1koke0d.mp4.json": {
+    "mtime": 1781258328.4578261,
+    "ast_hash": "1d4bbe41be0bf93153ea9d9d4381deb8",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/deadlift_sumo__1jd0wuf.mp4.json": {
+    "mtime": 1781258328.8715227,
+    "ast_hash": "30ca055b4001b2bebcc87b8d94694545",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/deadlift_sumo__1kj0keq.mp4.json": {
+    "mtime": 1781258329.2979836,
+    "ast_hash": "8eb80835f4c731224691388af30060e2",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/squat_highbar__1kaqgmw.mp4.json": {
+    "mtime": 1781258334.606716,
+    "ast_hash": "c2958bf9c6d6a9fa6f2269450f0c517a",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/squat_highbar__1kovzbg.mp4.json": {
+    "mtime": 1781258371.6045508,
+    "ast_hash": "01d2ed94a08da2335c1ee8f01ae896aa",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/squat_lowbar__1gkk44z.mp4.json": {
+    "mtime": 1781258458.4172356,
+    "ast_hash": "867a41ef863846537ed5b9c355618dae",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice/squat_lowbar__1kn0yi5.mp4.json": {
+    "mtime": 1781258498.4272952,
+    "ast_hash": "93f950771f00564e8ddb7ef305687cff",
+    "semantic_hash": ""
+  },
+  "cv-service/research/advice_dump.py": {
+    "mtime": 1781258823.564648,
+    "ast_hash": "23156ccb856fb8e5e5acbea70a01dbf1",
+    "semantic_hash": ""
+  },
+  "cv-service/research/bakeoff.json": {
+    "mtime": 1781258695.5473845,
+    "ast_hash": "90dde647c2fa868494ca0cb3e59834f8",
+    "semantic_hash": ""
+  },
+  "cv-service/research/bakeoff.py": {
+    "mtime": 1781258633.2079506,
+    "ast_hash": "5b9c33411aabe768e949eccc9600a175",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_all.py": {
+    "mtime": 1781258823.564648,
+    "ast_hash": "1a8aedb937df24833de410c766d754f7",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/summary.json": {
+    "mtime": 1781250905.1374612,
+    "ast_hash": "1ab46fa7f71a1a3d1954888a776a451a",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_deadlift/summary.json": {
+    "mtime": 1781250081.4861448,
+    "ast_hash": "27b692b7d5d8e09c1100e715a46597ca",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_squat/summary.json": {
+    "mtime": 1781251274.3848498,
+    "ast_hash": "8ffe6976c2d3b672932da5c92af35b0d",
+    "semantic_hash": ""
+  },
+  "cv-service/research/expectations.json": {
+    "mtime": 1781257757.0746138,
+    "ast_hash": "bfb04bc640d90950a6aa52c269e6d2ab",
+    "semantic_hash": ""
+  },
+  "cv-service/research/fetch_reddit.py": {
+    "mtime": 1781244874.3789592,
+    "ast_hash": "bb95776035c4cebe5935dc4b54644886",
+    "semantic_hash": ""
+  },
+  "cv-service/research/fill_gaps.py": {
+    "mtime": 1781245085.1146781,
+    "ast_hash": "adfbc02d2b0c6b6aa4199075ea5f5aac",
+    "semantic_hash": ""
+  },
+  "cv-service/research/grade.py": {
+    "mtime": 1781245966.048822,
+    "ast_hash": "49eb6831bc00252eed00bbc0dd419faf",
+    "semantic_hash": ""
+  },
+  "cv-service/research/manifest.json": {
+    "mtime": 1781245206.0966773,
+    "ast_hash": "74b28eb505df68f313878f0f11614013",
+    "semantic_hash": ""
+  },
+  "cv-service/research/pp_c1.json": {
+    "mtime": 1781244797.7773328,
+    "ast_hash": "804b15ef21cae640a783a16f06190543",
+    "semantic_hash": ""
+  },
+  "cv-service/research/pp_c2.json": {
+    "mtime": 1781244814.732489,
+    "ast_hash": "394ead3872a671096e163193cc9e1b9c",
+    "semantic_hash": ""
+  },
+  "cv-service/research/pp_test.json": {
+    "mtime": 1781244781.9755254,
+    "ast_hash": "2447b1e5ed37347be80ee10fa9651cfb",
+    "semantic_hash": ""
+  },
+  "cv-service/research/scoreboard.json": {
+    "mtime": 1781258322.931835,
+    "ast_hash": "cf1ee86a20c0ac22ffa51b0efca980fd",
+    "semantic_hash": ""
+  },
+  "cv-service/research/scoreboard_rtm.json": {
+    "mtime": 1781265347.8758614,
+    "ast_hash": "6bac798e470ba3767e0de2a204e08b9e",
+    "semantic_hash": ""
+  },
+  "db/schema.sql": {
+    "mtime": 1783839604.014665,
+    "ast_hash": "bd072ac486cec3d79be43361707c84a4",
+    "semantic_hash": ""
+  },
+  "packages/api-client/package.json": {
+    "mtime": 1784523824.30565,
+    "ast_hash": "a7983472adda9647fae991987a041872",
+    "semantic_hash": ""
+  },
+  "packages/api-client/src/index.ts": {
+    "mtime": 1784523824.307153,
+    "ast_hash": "8a5607de85d0e913669d19cbe0c2d83c",
+    "semantic_hash": ""
+  },
+  "packages/api-client/tsconfig.json": {
+    "mtime": 1784523824.308157,
+    "ast_hash": "79ce987a4bb9f89460dde991bc21c72e",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/package.json": {
+    "mtime": 1784523824.308157,
+    "ast_hash": "e942b9da4f7240763d441a6925d84ec2",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/src/dtos.ts": {
+    "mtime": 1784523824.309159,
+    "ast_hash": "f60f3ff803ae3b4dd91115161c67b5a7",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/src/index.ts": {
+    "mtime": 1784523824.309159,
+    "ast_hash": "9e9a6da1a63085981a26e7da7fd8ef2b",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/src/types.ts": {
+    "mtime": 1784523824.309159,
+    "ast_hash": "ea8b516c5cf86860a8eb0b575baf2c00",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/src/zod.ts": {
+    "mtime": 1784523824.3106623,
+    "ast_hash": "3ea2462ac4f165f226f4d3f03c99079c",
+    "semantic_hash": ""
+  },
+  "packages/shared-types/tsconfig.json": {
+    "mtime": 1784523824.3106623,
+    "ast_hash": "4af217f3a4cec3911f45970a504fd026",
+    "semantic_hash": ""
+  },
+  "scripts/seed-coaches.ts": {
+    "mtime": 1781504416.0486522,
+    "ast_hash": "e7179f41cc662457fd5ec3bcb3c258a3",
+    "semantic_hash": ""
+  },
+  "scripts/smoke-landing.ts": {
+    "mtime": 1781245089.6801991,
+    "ast_hash": "a792ea4797f48d2650a79ee57d70a34a",
+    "semantic_hash": ""
+  },
+  "scripts/smoke-pages.ts": {
+    "mtime": 1781245089.6811981,
+    "ast_hash": "3466828fcc2b91fa11cf02b7aa773669",
+    "semantic_hash": ""
+  },
+  "scripts/verify-adaptation.ts": {
+    "mtime": 1781245089.6827023,
+    "ast_hash": "e18cd0d2f73da3e626035dd8f2da5669",
+    "semantic_hash": ""
+  },
+  "scripts/walk-coach.mjs": {
+    "mtime": 1781125933.5444944,
+    "ast_hash": "f0d335c26ce66caa24d2bd314763fa9c",
+    "semantic_hash": ""
+  },
+  "scripts/walk-loop.mjs": {
+    "mtime": 1781067207.705506,
+    "ast_hash": "94e05e6014600dd6564ad02c923a265c",
+    "semantic_hash": ""
+  },
+  "scripts/walk-readiness.mjs": {
+    "mtime": 1781067207.706506,
+    "ast_hash": "f83e68df5f79ef4d49d0d1e4f9410eb1",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/about/page.tsx": {
+    "mtime": 1781245089.68371,
+    "ast_hash": "924fd6ced66801d5b1ec8f075c8c6ae9",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/coaching/page.tsx": {
+    "mtime": 1781504416.0501542,
+    "ast_hash": "fa918b05940b9f324dfbae9c21afb5c4",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/dashboard/ReadinessCard.tsx": {
+    "mtime": 1781245089.6867137,
+    "ast_hash": "e2ad101235fec9b8b9ed4ebaff105224",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/dashboard/TodayLoopCard.tsx": {
+    "mtime": 1783839609.883241,
+    "ast_hash": "6edb26b93bed9d15956c49b273cb6ea9",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/dashboard/WeeklyReviewCard.tsx": {
+    "mtime": 1781245067.5792007,
+    "ast_hash": "a0ec88b7f9b55bb099272fa99112639a",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/error.tsx": {
+    "mtime": 1783839609.885241,
+    "ast_hash": "02b4c85cf2a81b50861e938bceacfe0c",
+    "semantic_hash": ""
+  },
+  "src/app/(app)/formcheck/FormCheckCoachPanel.tsx": {
+    "mtime": 1781504416.0501542,
+    "ast_hash": "7e6ac7f9f66b2c8208e713e68bcc76dc",
+    "semantic_hash": ""
+  },
+  "src/app/admin/AdminActionButton.tsx": {
+    "mtime": 1783839609.8913708,
+    "ast_hash": "626ce7c993a718afa118027ce9178ef2",
+    "semantic_hash": ""
+  },
+  "src/app/admin/error.tsx": {
+    "mtime": 1783839609.892368,
+    "ast_hash": "4cf6a632a5a2b306d85ec6931cfc788c",
+    "semantic_hash": ""
+  },
+  "src/app/admin/layout.tsx": {
+    "mtime": 1781504416.0521631,
+    "ast_hash": "ef1eb2e215ae47213e73555492c75ca6",
+    "semantic_hash": ""
+  },
+  "src/app/admin/page.tsx": {
+    "mtime": 1781504416.0531623,
+    "ast_hash": "af1a6cdf9df7c639eb9fbc3b221ad175",
+    "semantic_hash": ""
+  },
+  "src/app/admin/reports/page.tsx": {
+    "mtime": 1781504416.0531623,
+    "ast_hash": "237ae0e925dd8eda55934ac069ba0e5b",
+    "semantic_hash": ""
+  },
+  "src/app/admin/reviews/page.tsx": {
+    "mtime": 1781504416.0541618,
+    "ast_hash": "ef51f872929163b3f19d27d07394dcc0",
+    "semantic_hash": ""
+  },
+  "src/app/api/admin/route.ts": {
+    "mtime": 1781504416.0551631,
+    "ast_hash": "0871423e137bd9d29b50580c9bd0cc96",
+    "semantic_hash": ""
+  },
+  "src/app/api/auth/callback/route.ts": {
+    "mtime": 1781389456.495386,
+    "ast_hash": "d2aada4c6e199ce39040eccf17892f02",
+    "semantic_hash": ""
+  },
+  "src/app/api/auth/status/route.ts": {
+    "mtime": 1781245089.700245,
+    "ast_hash": "1fac5e923a6cd4f40b900f30b25c8085",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/applications/route.ts": {
+    "mtime": 1781504416.056164,
+    "ast_hash": "15f6a7375e624c23d65d5a54b75d10c9",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/auth/callback/route.ts": {
+    "mtime": 1781394733.8326154,
+    "ast_hash": "662991138e001d46afe54ba295368334",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/auth/login/route.ts": {
+    "mtime": 1781245089.7012465,
+    "ast_hash": "35c5f2de376ec96655927b8092403886",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/auth/logout/route.ts": {
+    "mtime": 1781125655.5311034,
+    "ast_hash": "a4a8d49457b3c8843665fe33c5974fc4",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/bulk/route.ts": {
+    "mtime": 1781245089.702754,
+    "ast_hash": "55d7ffbcbd68bfe738e119c84b329caa",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/form-feedback/route.ts": {
+    "mtime": 1783875428.2454531,
+    "ast_hash": "703a37d3baae7588a1ee07cbd94379db",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/note/route.ts": {
+    "mtime": 1783875438.2688057,
+    "ast_hash": "ae3ca4e11c1cbc1833d30e11a3c3f6ba",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/posts/route.ts": {
+    "mtime": 1781504416.057163,
+    "ast_hash": "1bf5650fdeaac0468b2d516cdfe0e326",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/profile/route.ts": {
+    "mtime": 1781504416.0581589,
+    "ast_hash": "b0d5ed57bd379890be3481ea44a7de70",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/roster/route.ts": {
+    "mtime": 1781397875.348423,
+    "ast_hash": "c48966a363cd777ec4055237ad49d6d8",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/services/route.ts": {
+    "mtime": 1781504416.0581589,
+    "ast_hash": "cfd5d4c371ca8c412aba26327b3e18e5",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/showcase/route.ts": {
+    "mtime": 1781504416.0596712,
+    "ast_hash": "fa490ba8ca5bdb1c0f51d1dfe1afd477",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/suggestions/route.ts": {
+    "mtime": 1781245089.70476,
+    "ast_hash": "593c2843992d83cd2079ce99e952d048",
+    "semantic_hash": ""
+  },
+  "src/app/api/coach/tools/route.ts": {
+    "mtime": 1783875415.9172413,
+    "ast_hash": "46e2610ff683d9e30459f8c8603d4e5b",
+    "semantic_hash": ""
+  },
+  "src/app/api/coaches/apply/route.ts": {
+    "mtime": 1781504416.0616834,
+    "ast_hash": "89feff5ed9d27e492dd98701283036cc",
+    "semantic_hash": ""
+  },
+  "src/app/api/coaches/follow/route.ts": {
+    "mtime": 1781504416.0616834,
+    "ast_hash": "843ca5ab83e11e808ad318d9d185de7b",
+    "semantic_hash": ""
+  },
+  "src/app/api/coaches/report/route.ts": {
+    "mtime": 1781504416.0626817,
+    "ast_hash": "af11dfcc34b65d41215496edc5664017",
+    "semantic_hash": ""
+  },
+  "src/app/api/coaches/review/route.ts": {
+    "mtime": 1781504416.0637245,
+    "ast_hash": "7e2eb983baa030f93e5a077d8b434952",
+    "semantic_hash": ""
+  },
+  "src/app/api/coaches/save/route.ts": {
+    "mtime": 1781504416.0647168,
+    "ast_hash": "0ca9802bde0fbc8318c253cd8c440d10",
+    "semantic_hash": ""
+  },
+  "src/app/api/formcheck/share/route.ts": {
+    "mtime": 1781504416.0657232,
+    "ast_hash": "f7a5fd4cf98dfb335b4d5f382788ba86",
+    "semantic_hash": ""
+  },
+  "src/app/api/nutrition/edit/route.ts": {
+    "mtime": 1783875384.5321076,
+    "ast_hash": "6b31c869f0f33fb5854747cf57c532e7",
+    "semantic_hash": ""
+  },
+  "src/app/api/nutrition/optimize/route.ts": {
+    "mtime": 1783875387.8660583,
+    "ast_hash": "3dd70911cd8b46e1c5bb21ae247ef59d",
+    "semantic_hash": ""
+  },
+  "src/app/api/readiness/route.ts": {
+    "mtime": 1781245089.7102697,
+    "ast_hash": "5005aa95c657eab165aab7baa8c5e25b",
+    "semantic_hash": ""
+  },
+  "src/app/api/stripe/checkout/route.ts": {
+    "mtime": 1781397675.618782,
+    "ast_hash": "60990d6765d4fac517e24c33901a89e9",
+    "semantic_hash": ""
+  },
+  "src/app/api/stripe/portal/route.ts": {
+    "mtime": 1781397684.1406772,
+    "ast_hash": "e9ce36bdb01355ce6223f6fe3875d4a8",
+    "semantic_hash": ""
+  },
+  "src/app/api/stripe/webhook/route.ts": {
+    "mtime": 1781397701.849329,
+    "ast_hash": "e67ecdd2ad0b76c08dc1b580a3474ed8",
+    "semantic_hash": ""
+  },
+  "src/app/api/usage/route.ts": {
+    "mtime": 1781397709.6181283,
+    "ast_hash": "ad70753500adb742803d8ea4aadc654f",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/chat/route.ts": {
+    "mtime": 1784523824.31167,
+    "ast_hash": "d45db7a05747dbe8c760a4d4e7102358",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/dashboard/route.ts": {
+    "mtime": 1784523824.3126657,
+    "ast_hash": "7c1c71b791aced65ab8fe721647196e6",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/formcheck/[id]/route.ts": {
+    "mtime": 1784523824.3136663,
+    "ast_hash": "4323d4f9f10d95383835d76be164ad45",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/formcheck/route.ts": {
+    "mtime": 1784523824.3136663,
+    "ast_hash": "8b25736807baffbd476ad8b4d6c3fe26",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/profile/route.ts": {
+    "mtime": 1784523824.3146658,
+    "ast_hash": "8f9378d0d0f4dd51ac46adc9ad14e5b3",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/program/route.ts": {
+    "mtime": 1781908078.1716254,
+    "ast_hash": "4c69142a499cd98d8f624f23e0fbceef",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/progress/route.ts": {
+    "mtime": 1781907594.756297,
+    "ast_hash": "540c1a665a9297caaa24faaa1542276b",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/readiness/route.ts": {
+    "mtime": 1784523824.3146658,
+    "ast_hash": "27325c16ad7512c1f6877efd8eabfbca",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/session/log/route.ts": {
+    "mtime": 1784523824.3156679,
+    "ast_hash": "24f4438da16e5c619c194c36a3393ca5",
+    "semantic_hash": ""
+  },
+  "src/app/api/v1/usage/route.ts": {
+    "mtime": 1784523824.3166652,
+    "ast_hash": "77808d13b3af6384b71fd7acd22961d1",
+    "semantic_hash": ""
+  },
+  "src/app/blog/ai-powerlifting-coach-apps/page.tsx": {
+    "mtime": 1781503590.447682,
+    "ast_hash": "fefca7b3c95ab972c78741c6fccadf87",
+    "semantic_hash": ""
+  },
+  "src/app/blog/block-periodization-powerlifting/page.tsx": {
+    "mtime": 1781503341.0406435,
+    "ast_hash": "360dd963e6928de68c3852ca0bd4db5d",
+    "semantic_hash": ""
+  },
+  "src/app/blog/page.tsx": {
+    "mtime": 1781503135.4628773,
+    "ast_hash": "6cd6e647b72c7ea25b38d89c643efb6a",
+    "semantic_hash": ""
+  },
+  "src/app/blog/powerlifting-form-check/page.tsx": {
+    "mtime": 1781503727.6912906,
+    "ast_hash": "76af66d6c117c0186351486aa0019fb0",
+    "semantic_hash": ""
+  },
+  "src/app/blog/powerlifting-nutrition-guide/page.tsx": {
+    "mtime": 1781503825.6836183,
+    "ast_hash": "993dcb0900d3074f8144e78a37605a79",
+    "semantic_hash": ""
+  },
+  "src/app/blog/rpe-powerlifting-guide/page.tsx": {
+    "mtime": 1781503464.3961685,
+    "ast_hash": "02ddbff461bf294d71db15de914e96f8",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/CoachNav.tsx": {
+    "mtime": 1781504416.0657232,
+    "ast_hash": "96d10620002cb0491c060adf4f4b5f28",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/LogoutButton.tsx": {
+    "mtime": 1781125655.535611,
+    "ast_hash": "526ea172200d61a41f52a9e0a6326c0a",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/applications/ApplicationsInbox.tsx": {
+    "mtime": 1781504416.066723,
+    "ast_hash": "26a768fa51c7833b6b0fe43c3309fd9f",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/applications/page.tsx": {
+    "mtime": 1781504416.067346,
+    "ast_hash": "671294183fba5b022fac8e768782004b",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/bulk/BulkClient.tsx": {
+    "mtime": 1781125655.535611,
+    "ast_hash": "eee0e92e8f6205e1e01fc0bd720ff714",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/bulk/page.tsx": {
+    "mtime": 1781245089.7137847,
+    "ast_hash": "b215bb0458a115ddacc4ffab40af8f3b",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/clients/[id]/ClientTools.tsx": {
+    "mtime": 1781504416.067346,
+    "ast_hash": "c0dd4d6bd910cff036f4ad0cba520a0a",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/clients/[id]/SuggestionQueue.tsx": {
+    "mtime": 1781245089.7147837,
+    "ast_hash": "af3625690f3ed527e8903404a87f725d",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/clients/[id]/page.tsx": {
+    "mtime": 1783839609.8933678,
+    "ast_hash": "2e842b162208f306d07153f8eb120f6d",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/error.tsx": {
+    "mtime": 1783839609.8933678,
+    "ast_hash": "7445154fa678c5d1a08d6b7364ad7976",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/layout.tsx": {
+    "mtime": 1781402291.1189828,
+    "ast_hash": "8ce60afff743aedfb351127854b7d64b",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/page.tsx": {
+    "mtime": 1781398130.625765,
+    "ast_hash": "e27876ca0e6c1f1508537f0c2a254088",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/posts/PostsManager.tsx": {
+    "mtime": 1783839609.894369,
+    "ast_hash": "6c9604d6c0535cbbfe6e5143c9525c82",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/posts/page.tsx": {
+    "mtime": 1781504416.0698702,
+    "ast_hash": "87e7fd3c51c563452ed2639b57165af9",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/profile/CredentialsManager.tsx": {
+    "mtime": 1783839609.8953712,
+    "ast_hash": "0292b3a95c2fb90018007baf2bcbc60c",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/profile/ProfileEditor.tsx": {
+    "mtime": 1781504416.0708747,
+    "ast_hash": "b64492a1664c79923012c515fc5b76e1",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/profile/ServicesEditor.tsx": {
+    "mtime": 1781504416.0718708,
+    "ast_hash": "0b3fe3a4f97517086ad12551b0fd8f06",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/profile/ShowcaseEditor.tsx": {
+    "mtime": 1781504416.0718708,
+    "ast_hash": "b72adc6f58104673165da1f77026329d",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/profile/page.tsx": {
+    "mtime": 1781504416.072879,
+    "ast_hash": "c9c6c45a34873bf9acbddc55afc6ffd0",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/reviews/FormReviewsClient.tsx": {
+    "mtime": 1781504416.072879,
+    "ast_hash": "917066e0f09e4b1081ba72fb3848f04b",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/reviews/page.tsx": {
+    "mtime": 1781504416.073871,
+    "ast_hash": "4634c997af3cc6dd4ae4cd64f9cf2471",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/roster/AddClients.tsx": {
+    "mtime": 1781245089.7167838,
+    "ast_hash": "1366ca0b19b213dba8ec243286b10024",
+    "semantic_hash": ""
+  },
+  "src/app/coach/(console)/roster/page.tsx": {
+    "mtime": 1781245089.7177844,
+    "ast_hash": "ba5f73ffab2183bbfb36bd5c8601a1c9",
+    "semantic_hash": ""
+  },
+  "src/app/coach/[username]/ApplyForCoachingModal.tsx": {
+    "mtime": 1783839609.8953712,
+    "ast_hash": "67b10de24286f7e42445f397735e0531",
+    "semantic_hash": ""
+  },
+  "src/app/coach/[username]/CoachProfileActions.tsx": {
+    "mtime": 1781504416.0748746,
+    "ast_hash": "89f480ac80d75b3449e6cfbe58d42513",
+    "semantic_hash": ""
+  },
+  "src/app/coach/[username]/ReviewForm.tsx": {
+    "mtime": 1781504416.0748746,
+    "ast_hash": "30999002f876e1c2df9c1cee117ca32a",
+    "semantic_hash": ""
+  },
+  "src/app/coach/[username]/page.tsx": {
+    "mtime": 1781504416.0758781,
+    "ast_hash": "1b997686e9a68976939c769ffa24f55c",
+    "semantic_hash": ""
+  },
+  "src/app/coach/login/page.tsx": {
+    "mtime": 1783839609.8963683,
+    "ast_hash": "344256ff1bf3ee34faccfa680f824b0f",
+    "semantic_hash": ""
+  },
+  "src/app/coaches/CoachSearchControls.tsx": {
+    "mtime": 1781504416.0768776,
+    "ast_hash": "d965191343b8c2d3bd96f6d0dfee03b6",
+    "semantic_hash": ""
+  },
+  "src/app/coaches/leaderboard/page.tsx": {
+    "mtime": 1781504416.0778797,
+    "ast_hash": "9820e7dc4f39f902c8a08f6f5a50e42d",
+    "semantic_hash": ""
+  },
+  "src/app/coaches/page.tsx": {
+    "mtime": 1781504416.0778797,
+    "ast_hash": "86d09541b3fcb88a2e60b7da43af0fa5",
+    "semantic_hash": ""
+  },
+  "src/app/not-found.tsx": {
+    "mtime": 1783839609.898368,
+    "ast_hash": "591ee23f60417582c1528c4a35c5ec56",
+    "semantic_hash": ""
+  },
+  "src/app/pricing/page.tsx": {
+    "mtime": 1781503881.1101394,
+    "ast_hash": "de6056d79006bab89a2a1af23e17ae7b",
+    "semantic_hash": ""
+  },
+  "src/app/privacy/page.tsx": {
+    "mtime": 1781504416.0793889,
+    "ast_hash": "fdfd2df3698b033e4e070c8bc69583d8",
+    "semantic_hash": ""
+  },
+  "src/app/sitemap.ts": {
+    "mtime": 1781503104.9709363,
+    "ast_hash": "108a6f6079c4efd2d1590663455d77af",
+    "semantic_hash": ""
+  },
+  "src/app/terms/page.tsx": {
+    "mtime": 1781504416.0803988,
+    "ast_hash": "4362bec640a67ac7be53d53a3b803b59",
+    "semantic_hash": ""
+  },
+  "src/components/billing/BillingPanel.tsx": {
+    "mtime": 1781398064.5315926,
+    "ast_hash": "98c67338ecb09f8b4ed30525fe536d06",
+    "semantic_hash": ""
+  },
+  "src/components/blog/BlogPost.tsx": {
+    "mtime": 1781504042.1203647,
+    "ast_hash": "21be9507472f130ee2a0e9f024d332a2",
+    "semantic_hash": ""
+  },
+  "src/components/landing/HeroScene.tsx": {
+    "mtime": 1781245089.723842,
+    "ast_hash": "7d9d685386701f218c8be636e98f7f70",
+    "semantic_hash": ""
+  },
+  "src/components/landing/LandingExperience.tsx": {
+    "mtime": 1781504416.0813963,
+    "ast_hash": "080bae248fe7918ced75f11bdc0e7c56",
+    "semantic_hash": ""
+  },
+  "src/components/landing/Magnetic.tsx": {
+    "mtime": 1781245089.7248406,
+    "ast_hash": "cb608e20059798ed806c6c7151b2b9a4",
+    "semantic_hash": ""
+  },
+  "src/components/landing/ScrambleText.tsx": {
+    "mtime": 1781245089.7258427,
+    "ast_hash": "0642fd87daf6306219ebcda7dbc8ac04",
+    "semantic_hash": ""
+  },
+  "src/components/landing/TiltCard.tsx": {
+    "mtime": 1781245089.7268448,
+    "ast_hash": "cd85e0be5c60c43d83ae18ace4b496a4",
+    "semantic_hash": ""
+  },
+  "src/components/layout/PageTransition.tsx": {
+    "mtime": 1781245089.7278404,
+    "ast_hash": "5211da129f4635af30a6bba60bc95289",
+    "semantic_hash": ""
+  },
+  "src/components/legal/LegalLayout.tsx": {
+    "mtime": 1781504416.082393,
+    "ast_hash": "c7281a028b506f6b18741d46bb4c7c3a",
+    "semantic_hash": ""
+  },
+  "src/components/nav/UpgradeNavButton.tsx": {
+    "mtime": 1781402257.310634,
+    "ast_hash": "a1113f837275e6c20ee4e1f504e3d959",
+    "semantic_hash": ""
+  },
+  "src/components/network/CoachCardItem.tsx": {
+    "mtime": 1781504416.084401,
+    "ast_hash": "5e67e2b1048b7933b382696815c57798",
+    "semantic_hash": ""
+  },
+  "src/components/network/PublicNetworkHeader.tsx": {
+    "mtime": 1781504416.084401,
+    "ast_hash": "a360e73c36a12f6cb9afe0631f235d48",
+    "semantic_hash": ""
+  },
+  "src/components/network/ReportButton.tsx": {
+    "mtime": 1781504416.0853982,
+    "ast_hash": "58208d5b3be4521f95ccfb39c9a59f46",
+    "semantic_hash": ""
+  },
+  "src/components/ui/GoogleIcon.tsx": {
+    "mtime": 1781394692.379943,
+    "ast_hash": "499477f902c9e24924a56af658a3f809",
+    "semantic_hash": ""
+  },
+  "src/components/ui/PageHeader.tsx": {
+    "mtime": 1781245089.7298915,
+    "ast_hash": "a626d94ea0e925a00f6bb80b1f841212",
+    "semantic_hash": ""
+  },
+  "src/components/ui/StarRating.tsx": {
+    "mtime": 1781504416.0853982,
+    "ast_hash": "ec68b793036d57af1b039a8fe4b5909a",
+    "semantic_hash": ""
+  },
+  "src/lib/admin-auth.ts": {
+    "mtime": 1781504416.0863998,
+    "ast_hash": "628b7af4f6a148221755ae523cb33c1b",
+    "semantic_hash": ""
+  },
+  "src/lib/admin-data.ts": {
+    "mtime": 1781504416.0873923,
+    "ast_hash": "500f0cea5a6a3ba450c2e517059f5990",
+    "semantic_hash": ""
+  },
+  "src/lib/coach-auth.ts": {
+    "mtime": 1781245089.7318895,
+    "ast_hash": "aaf1f4b47c044a5b5c6f60d134cf0981",
+    "semantic_hash": ""
+  },
+  "src/lib/coach-data.ts": {
+    "mtime": 1781245089.73289,
+    "ast_hash": "3c6bfb74d27042727ab25d9d79c0af8e",
+    "semantic_hash": ""
+  },
+  "src/lib/decision-rules.ts": {
+    "mtime": 1781067207.7165067,
+    "ast_hash": "551f3905a30def4e3af057f2eaf7c1aa",
+    "semantic_hash": ""
+  },
+  "src/lib/form-review-data.ts": {
+    "mtime": 1781504416.0873923,
+    "ast_hash": "323fb3e58c709fb26669ee80ac66e994",
+    "semantic_hash": ""
+  },
+  "src/lib/handoff.ts": {
+    "mtime": 1781245089.734899,
+    "ast_hash": "06d267ec0b3d4edac76d6ca1f471c336",
+    "semantic_hash": ""
+  },
+  "src/lib/limits.ts": {
+    "mtime": 1783875346.319367,
+    "ast_hash": "136b6e24c1667f236c64e16e2658e3b5",
+    "semantic_hash": ""
+  },
+  "src/lib/network-constants.ts": {
+    "mtime": 1781504416.088393,
+    "ast_hash": "9b81963d0ccbea7e50269314fc6f5179",
+    "semantic_hash": ""
+  },
+  "src/lib/network-data.ts": {
+    "mtime": 1781504416.088393,
+    "ast_hash": "62a8080ece6dbc23c780c76d6ad37808",
+    "semantic_hash": ""
+  },
+  "src/lib/nutrition-generate.ts": {
+    "mtime": 1782099694.505398,
+    "ast_hash": "859493cb95d424a6905f355484ce60b8",
+    "semantic_hash": ""
+  },
+  "src/lib/program.ts": {
+    "mtime": 1783839609.9005444,
+    "ast_hash": "ff42bd48a034699e4590d43344638cee",
+    "semantic_hash": ""
+  },
+  "src/lib/progress.ts": {
+    "mtime": 1783839609.9005444,
+    "ast_hash": "94a5433607d18b46d7e2ce666dffc29b",
+    "semantic_hash": ""
+  },
+  "src/lib/prompts/coachNote.ts": {
+    "mtime": 1781067207.7195072,
+    "ast_hash": "fb5a82e957f451fe6faca8eebf23a9ce",
+    "semantic_hash": ""
+  },
+  "src/lib/readiness.ts": {
+    "mtime": 1781067207.7195072,
+    "ast_hash": "ab4c53c6cb5190ed5a57dc7c7f9465a7",
+    "semantic_hash": ""
+  },
+  "src/lib/review-data.ts": {
+    "mtime": 1781245089.7358916,
+    "ast_hash": "f4d2d7788ce1c3100599c2ff6e4a799d",
+    "semantic_hash": ""
+  },
+  "src/lib/stripe.ts": {
+    "mtime": 1781399261.7805555,
+    "ast_hash": "45a855fc92455bb37657a90c3d742010",
+    "semantic_hash": ""
+  },
+  "src/lib/suggestions.ts": {
+    "mtime": 1781125655.5456693,
+    "ast_hash": "0cddbf3496bca0bc797129b9560eec22",
+    "semantic_hash": ""
+  },
+  "src/lib/supabase/client.ts": {
+    "mtime": 1781125655.2596343,
+    "ast_hash": "e119d1e603f18cc14f3b38f872e5839d",
+    "semantic_hash": ""
+  },
+  "src/lib/supabase/server.ts": {
+    "mtime": 1781125655.260634,
+    "ast_hash": "c2cad61638f7416b12500821f8d41c56",
+    "semantic_hash": ""
+  },
+  "src/lib/triage.ts": {
+    "mtime": 1781125655.5456693,
+    "ast_hash": "44cf4e919f8921dfd43f71e27520f28b",
+    "semantic_hash": ""
+  },
+  "src/lib/weekly-review.ts": {
+    "mtime": 1781067207.721507,
+    "ast_hash": "439858145d22dfab166d8ea02ff51a3a",
+    "semantic_hash": ""
+  },
+  "src/middleware.ts": {
+    "mtime": 1781125891.5607066,
+    "ast_hash": "80f77715a5b1881547a05b3beb17599a",
+    "semantic_hash": ""
+  },
+  "tests/decision-rules.test.ts": {
+    "mtime": 1781067207.721507,
+    "ast_hash": "93f41cc4147231fc5c790d03a606f14a",
+    "semantic_hash": ""
+  },
+  "tests/limits.test.ts": {
+    "mtime": 1781397728.4733386,
+    "ast_hash": "3a7330ada96cb80e7a580e7db8d51f81",
+    "semantic_hash": ""
+  },
+  "tests/readiness.test.ts": {
+    "mtime": 1781067207.7225063,
+    "ast_hash": "509908d58bc4928c84e972de0cad6cc5",
+    "semantic_hash": ""
+  },
+  "tests/suggestions.test.ts": {
+    "mtime": 1781125655.54667,
+    "ast_hash": "51119dbfacc48928a278282ff1c55029",
+    "semantic_hash": ""
+  },
+  "tests/triage.test.ts": {
+    "mtime": 1781125655.5476704,
+    "ast_hash": "9bf70174d6f175e63dc09b7a387061d9",
+    "semantic_hash": ""
+  },
+  "tests/weekly-review.test.ts": {
+    "mtime": 1781067207.7225063,
+    "ast_hash": "dc2aea5b6d25461d2a1aabced80f82fa",
+    "semantic_hash": ""
+  },
+  "turbo.json": {
+    "mtime": 1784523824.3176663,
+    "ast_hash": "056c4801a07f9d6efc0108c01e7a59d4",
+    "semantic_hash": ""
+  },
+  ".claude/plans/native-android-ios-apps.plan.md": {
+    "mtime": 1781851180.7770977,
+    "ast_hash": "832bc40e8d438a01fd3d40721a05d832",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1784228704.7009501,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781067207.6095376,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "HOME.md": {
+    "mtime": 1782084228.2028954,
+    "ast_hash": "116359d2ec4fc35c367c05eb665f5374",
+    "semantic_hash": ""
+  },
+  "apps/mobile/README.md": {
+    "mtime": 1784523824.2770138,
+    "ast_hash": "695a9315f82f1b9316400ebd53b16d9f",
+    "semantic_hash": ""
+  },
+  "cv-service/MODAL_DEPLOY.md": {
+    "mtime": 1782098577.52114,
+    "ast_hash": "ef0334fde00693f1c265a8a10f720553",
+    "semantic_hash": ""
+  },
+  "cv-service/research/ANALYSIS.md": {
+    "mtime": 1781265459.203575,
+    "ast_hash": "b5505bd92a05ab709af4a1ae964d7771",
+    "semantic_hash": ""
+  },
+  "cv-service/research/consensus.md": {
+    "mtime": 1781245434.985742,
+    "ast_hash": "817ad37b8fb33f2d6cfbdaa349bbeca0",
+    "semantic_hash": ""
+  },
+  "cv-service/research/grading.md": {
+    "mtime": 1781258499.4373965,
+    "ast_hash": "325136d92ea92f26c6a7d58ad5ea9167",
+    "semantic_hash": ""
+  },
+  "docs/how-the-program-adapts.md": {
+    "mtime": 1781067207.6795063,
+    "ast_hash": "74e3545af9ea4d939a7d49996ec0ed2e",
+    "semantic_hash": ""
+  },
+  "docs/investor/SOURCE-OF-TRUTH.md": {
+    "mtime": 1782452058.348149,
+    "ast_hash": "1033d028e44420589f38229bf26bc8a4",
+    "semantic_hash": ""
+  },
+  "docs/investor/one-pager.md": {
+    "mtime": 1782452086.805937,
+    "ast_hash": "cb3ca55b0efe7bdd19eff546c02e0b28",
+    "semantic_hash": ""
+  },
+  "docs/market-research-outreach.md": {
+    "mtime": 1781682532.3135555,
+    "ast_hash": "c376ad348c4396cdf1eb8497a2129da8",
+    "semantic_hash": ""
+  },
+  "docs/stripe-runbook.md": {
+    "mtime": 1781398985.2298367,
+    "ast_hash": "85766ecb98ce501c8421effbe3f6f7d1",
+    "semantic_hash": ""
+  },
+  "legal-preview/privacy.html": {
+    "mtime": 1781504416.0426462,
+    "ast_hash": "1bb8e180e7e101e92f9e918f1fd6985c",
+    "semantic_hash": ""
+  },
+  "legal-preview/terms.html": {
+    "mtime": 1781504416.0436504,
+    "ast_hash": "22060eac49be5005da8e792e32d069c4",
+    "semantic_hash": ""
+  },
+  "public/llms.txt": {
+    "mtime": 1781300249.4459047,
+    "ast_hash": "1d8d5e9e16969b9ade563184ca6709b2",
+    "semantic_hash": ""
+  },
+  "public/pricing.md": {
+    "mtime": 1781300250.2501426,
+    "ast_hash": "2db3901f486489ace1a98926f5dce2f9",
+    "semantic_hash": ""
+  },
+  "public/robots.txt": {
+    "mtime": 1781300241.2357256,
+    "ast_hash": "b399420a80f02b979c43f72dcb0922a8",
+    "semantic_hash": ""
+  },
+  "legal-preview/privacy.pdf": {
+    "mtime": 1781504416.0426462,
+    "ast_hash": "1f7ed3bb2045c75accb5b53f74e07677",
+    "semantic_hash": ""
+  },
+  "legal-preview/terms.pdf": {
+    "mtime": 1781504416.0446506,
+    "ast_hash": "c0d46f3afab8a722f7b4283c12c4f005",
+    "semantic_hash": ""
+  },
+  ".walk-screens/1-dashboard.png": {
+    "mtime": 1781067207.5935383,
+    "ast_hash": "3da5d08261157e478e8ce09fa8586a60",
+    "semantic_hash": ""
+  },
+  ".walk-screens/2-log-modal.png": {
+    "mtime": 1781067207.5945377,
+    "ast_hash": "f4a1e6484df8aa4d054b53fc1f17910f",
+    "semantic_hash": ""
+  },
+  ".walk-screens/3-handoff-panel.png": {
+    "mtime": 1781067207.5955393,
+    "ast_hash": "4c5698e35c0c4384a36fb74a569d6180",
+    "semantic_hash": ""
+  },
+  ".walk-screens/4-formcheck.png": {
+    "mtime": 1781067207.6075373,
+    "ast_hash": "7fe718a757191556f844da797b4e6410",
+    "semantic_hash": ""
+  },
+  ".walk-screens/5-dashboard-after-log.png": {
+    "mtime": 1781067207.6095376,
+    "ast_hash": "5a0be536859edc3a2c895dd1930e94b6",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/android-icon-background.png": {
+    "mtime": 1784523824.2905235,
+    "ast_hash": "2d65569cc0e2afdcea0af9f9902d4173",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/android-icon-foreground.png": {
+    "mtime": 1784523824.29154,
+    "ast_hash": "72e71a9c846c6aa4ae32476641a00e18",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/android-icon-monochrome.png": {
+    "mtime": 1784523824.29154,
+    "ast_hash": "1e097dab989759fc0b69440092ca22cd",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/favicon.png": {
+    "mtime": 1784523824.2925508,
+    "ast_hash": "d9f444efbdfbe7931aa93beada07318a",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/icon.png": {
+    "mtime": 1784523824.2935407,
+    "ast_hash": "cb975bba2216ce10a60e6c0ffe9941a2",
+    "semantic_hash": ""
+  },
+  "apps/mobile/assets/splash-icon.png": {
+    "mtime": 1784523824.2945406,
+    "ast_hash": "97dae5a0e62ad8551d8a31897b425e63",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/135_lb_bench_RPE_RPE_6.5.mp4.overlay.png": {
+    "mtime": 1780799835.2417502,
+    "ast_hash": "291f4d6fab75ead829328bf5f61cf6c2",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/150_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1780718435.0275917,
+    "ast_hash": "efffb34feb29c48d58284f3f2b201ea5",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/150lb_bench_RPE_6.mp4.overlay.png": {
+    "mtime": 1780799797.3471985,
+    "ast_hash": "c11e80ae299b1353a8f1307331a73adf",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/160_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1780799590.2357435,
+    "ast_hash": "f7e7d12721ef3f15ded47316ee18d950",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/310_lb_bench_RPE_7.mp4.overlay.png": {
+    "mtime": 1780799634.6247265,
+    "ast_hash": "a4e0754507b1b2f9944348728371287b",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_out/debug_overlay.png": {
+    "mtime": 1780793538.2204938,
+    "ast_hash": "861d330d02fb766c692e67b74fae78d4",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm/150_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1781265459.6664977,
+    "ast_hash": "8fc41d61262e2d44c842f4693fc2815c",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm_deadlift/deadlift_sumo__1jd0wuf.mp4.overlay.png": {
+    "mtime": 1781265593.6228032,
+    "ast_hash": "de7986ea83dc23ed0218ff61984e7637",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_rtm_squat/315_lb_squat.mp4.overlay.png": {
+    "mtime": 1781265549.2844517,
+    "ast_hash": "b23c6e404cf7073ba363933bc113802d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p0.png": {
+    "mtime": 1780807049.8236744,
+    "ast_hash": "4d3af6cbaf72b704f1046d4195260366",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p1.png": {
+    "mtime": 1780807049.8377101,
+    "ast_hash": "f18750f23115fbc1d57ac4131c3e2834",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p2.png": {
+    "mtime": 1780807049.8522267,
+    "ast_hash": "920cc8d233633074ec455622202fac82",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/135_lb_bench_RPE_RPE_6.5.mp4.overlay.png": {
+    "mtime": 1780803918.4142995,
+    "ast_hash": "2613066db755682d8dc7e82bbee8b907",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/150lb_bench_RPE_6.mp4.overlay.p0.png": {
+    "mtime": 1780807049.9043097,
+    "ast_hash": "3eb4d6d8e21c820b1e272c0b80978fa9",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/150lb_bench_RPE_6.mp4.overlay.p1.png": {
+    "mtime": 1780807049.9368305,
+    "ast_hash": "5376d077f9cc0dc3db3cc518bee3266a",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/150lb_bench_RPE_6.mp4.overlay.p2.png": {
+    "mtime": 1780807049.9680998,
+    "ast_hash": "37833d9b8d4166dd2b307381c00a7f8d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/150lb_bench_RPE_6.mp4.overlay.png": {
+    "mtime": 1780804038.95218,
+    "ast_hash": "6db6ed221858e58cb2fc5f1bde553088",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/160_kg_bench_RPE_9.mp4.overlay.p0.png": {
+    "mtime": 1780807049.9846117,
+    "ast_hash": "946f3521ef897910eef6aa38b248ef90",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/160_kg_bench_RPE_9.mp4.overlay.p1.png": {
+    "mtime": 1780807049.9941456,
+    "ast_hash": "3eadf3b27cccf3867dbf1088c24c8e3d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/160_kg_bench_RPE_9.mp4.overlay.p2.png": {
+    "mtime": 1780807050.003154,
+    "ast_hash": "82255f59cdf32b421af9299518470e36",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/160_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1780804072.0336237,
+    "ast_hash": "2067075c4bccdfff36b57c67041f52d3",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/310_lb_bench_RPE_7.mp4.overlay.p0.png": {
+    "mtime": 1780807050.0202425,
+    "ast_hash": "8a55c77f7dbb6190ef0421fff787b6d7",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/310_lb_bench_RPE_7.mp4.overlay.p1.png": {
+    "mtime": 1780807050.0297496,
+    "ast_hash": "64da07cd1fa0dff84d62c2b719e751e7",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/310_lb_bench_RPE_7.mp4.overlay.p2.png": {
+    "mtime": 1780807050.039793,
+    "ast_hash": "d28bebb582370bbccbf2970dd206ad7f",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_visual/310_lb_bench_RPE_7.mp4.overlay.png": {
+    "mtime": 1780804115.0123985,
+    "ast_hash": "357df3e0954ae9914d57492cae7c84fc",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p0.png": {
+    "mtime": 1780809578.7449343,
+    "ast_hash": "bcd73d84cae92c7ccb435009e26be602",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p1.png": {
+    "mtime": 1780809578.7594962,
+    "ast_hash": "d95bc59b4f891e989930863975424d6b",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/135_lb_bench_RPE_RPE_6.5.mp4.overlay.p2.png": {
+    "mtime": 1780809578.7736392,
+    "ast_hash": "9614d65fd9f37e92e24c209773e7aadc",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/135_lb_bench_RPE_RPE_6.5.mp4.overlay.png": {
+    "mtime": 1780809980.9985595,
+    "ast_hash": "32f1c51d44433fa9c3f8700fc106cc7f",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150_kg_bench_RPE_9.mp4.overlay.p0.png": {
+    "mtime": 1780809578.793528,
+    "ast_hash": "4c10e34808bd79c24925ccd8164929d8",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150_kg_bench_RPE_9.mp4.overlay.p1.png": {
+    "mtime": 1780809578.803034,
+    "ast_hash": "4ed18834bcf4e274dc935cda6890450c",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150_kg_bench_RPE_9.mp4.overlay.p2.png": {
+    "mtime": 1780809578.8132424,
+    "ast_hash": "e6309fdb4dfbed7f58bc2e945887e819",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1780810174.093215,
+    "ast_hash": "18960ee0013ed18dd6dd4461f6b3f58d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150lb_bench_RPE_6.mp4.overlay.p0.png": {
+    "mtime": 1780809578.8699229,
+    "ast_hash": "2a77d6552739a73c3ab9a2492b9d1d79",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150lb_bench_RPE_6.mp4.overlay.p1.png": {
+    "mtime": 1780809578.9006336,
+    "ast_hash": "cfbc4666b2c9d2243ac7f14c19306926",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150lb_bench_RPE_6.mp4.overlay.p2.png": {
+    "mtime": 1780809578.932834,
+    "ast_hash": "493a1dd078c0f64b652ae55655e635c0",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/150lb_bench_RPE_6.mp4.overlay.png": {
+    "mtime": 1780810531.090098,
+    "ast_hash": "91036190504779aee6c8b901ed8faffd",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/160_kg_bench_RPE_9.mp4.overlay.p0.png": {
+    "mtime": 1780809578.9558554,
+    "ast_hash": "2417e6e273693ce15aa11482a79632d4",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/160_kg_bench_RPE_9.mp4.overlay.p1.png": {
+    "mtime": 1780809578.9653604,
+    "ast_hash": "41833fde4ea379111120d111ea524a2d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/160_kg_bench_RPE_9.mp4.overlay.p2.png": {
+    "mtime": 1780809578.975866,
+    "ast_hash": "178109ad3cf9aa3e824cf3dbde9d8ec1",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/160_kg_bench_RPE_9.mp4.overlay.png": {
+    "mtime": 1780810732.888155,
+    "ast_hash": "59214f65d839956b7b53646bb644645b",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/310_lb_bench_RPE_7.mp4.overlay.p0.png": {
+    "mtime": 1780809578.996881,
+    "ast_hash": "179a237c7afd188bf8a1ebc538491fc1",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/310_lb_bench_RPE_7.mp4.overlay.p1.png": {
+    "mtime": 1780809579.0069597,
+    "ast_hash": "bad07f108776e9a5993036f55a8caacc",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/310_lb_bench_RPE_7.mp4.overlay.p2.png": {
+    "mtime": 1780809579.0172398,
+    "ast_hash": "3f0707e659eb106eef39ff2ae86256e3",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo/310_lb_bench_RPE_7.mp4.overlay.png": {
+    "mtime": 1780810869.8071768,
+    "ast_hash": "82624b9f6454501ba14fdd202d281070",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/155_lb_deadlift.mp4.overlay.png": {
+    "mtime": 1781067207.617537,
+    "ast_hash": "3276768140e09e757506f51e5d79caa0",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/225_lb_deadlift.mp4.overlay.png": {
+    "mtime": 1781067207.624538,
+    "ast_hash": "65cbdaba26d4512429f6246f82b06ea2",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/255 lb deadlift.mp4.DEBUG.overlay.png": {
+    "mtime": 1781067207.628632,
+    "ast_hash": "ec1a8db31d2aa28bc0e6260bc501c01d",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/255_lb_deadlift.mp4.overlay.png": {
+    "mtime": 1781067207.6385057,
+    "ast_hash": "2e8846dd05e66e27fa8f8966df36357f",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/290 lb deadlift.mp4.DEBUG.overlay.png": {
+    "mtime": 1781067207.6415062,
+    "ast_hash": "a0d32d13e993d98e477d581c32756ee5",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_deadlift/290_lb_deadlift.mp4.overlay.png": {
+    "mtime": 1781067207.6525064,
+    "ast_hash": "d50c70f134175ca6b6b5e3ef8d1ea88e",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_squat/145_lb_squat.mp4.overlay.png": {
+    "mtime": 1781246612.032825,
+    "ast_hash": "73dea41ef0f7be7a90710e62cfd2b645",
+    "semantic_hash": ""
+  },
+  "cv-service/eval_yolo_squat/315_lb_squat.mp4.overlay.png": {
+    "mtime": 1781247298.177029,
+    "ast_hash": "6a0ffe7d5373a5c5f2277752b7004d32",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/bench__1jzn2i2.mp4.overlay.png": {
+    "mtime": 1781245979.6486747,
+    "ast_hash": "9d291218c6e330f7bc2a5a3b94c2210c",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/bench__1k74bhj.mp4.overlay.png": {
+    "mtime": 1781246706.780452,
+    "ast_hash": "d06766b89c64bf8ae101d263b9bccda3",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/bench__1kp9loz.mp4.overlay.png": {
+    "mtime": 1781247312.8573446,
+    "ast_hash": "d1457c8e684ea903934b56f0ed8bc0a4",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/bench_close__c8v58n.mp4.overlay.png": {
+    "mtime": 1781249231.4101727,
+    "ast_hash": "99f28d4702d9e22a512c2d0a409144dd",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_bench/bench_wide__bl06xu.mp4.overlay.png": {
+    "mtime": 1781250905.0817819,
+    "ast_hash": "b59f8fecb2b1aa6d313131556ab34bab",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_deadlift/deadlift_conv__1kk370m.mp4.overlay.png": {
+    "mtime": 1781247321.20229,
+    "ast_hash": "56e048fd2a04faa6cf76da30639963ba",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_deadlift/deadlift_conv__1koke0d.mp4.overlay.png": {
+    "mtime": 1781248142.7967453,
+    "ast_hash": "369dd07f041ca8f05cc02797ab700654",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_deadlift/deadlift_sumo__1jd0wuf.mp4.overlay.png": {
+    "mtime": 1781249714.1712105,
+    "ast_hash": "6db01b1248ee9dd8fe0d5b1960171e2e",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_deadlift/deadlift_sumo__1kj0keq.mp4.overlay.png": {
+    "mtime": 1781250081.4088683,
+    "ast_hash": "fd8a9ed78715cf47cb4d0f903b813c5a",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_squat/squat_highbar__1kaqgmw.mp4.overlay.png": {
+    "mtime": 1781247322.5196989,
+    "ast_hash": "1b628237d3106d9fb676816b21227a92",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_squat/squat_highbar__1kovzbg.mp4.overlay.png": {
+    "mtime": 1781249371.4018679,
+    "ast_hash": "c5fc1f56a233b3fbde22bc5f861c6ed2",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_squat/squat_lowbar__1gkk44z.mp4.overlay.png": {
+    "mtime": 1781250251.0532622,
+    "ast_hash": "2ca6453c02ad16e69d72671d68b3ddf7",
+    "semantic_hash": ""
+  },
+  "cv-service/research/eval_squat/squat_lowbar__1kn0yi5.mp4.overlay.png": {
+    "mtime": 1781251274.3225763,
+    "ast_hash": "ae8030ae9ad361b4be05c4a5f1f51415",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/bench__1jzn2i2.png": {
+    "mtime": 1781245249.0242696,
+    "ast_hash": "2705828ad3ee15b7fd833f77bef949da",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/bench__1k74bhj.png": {
+    "mtime": 1781245249.5232904,
+    "ast_hash": "a81034945532b19eb8574ada586fe0a6",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/bench__1kp9loz.png": {
+    "mtime": 1781245250.215722,
+    "ast_hash": "41b239a525beb0a76b38aea6d23d7387",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/bench_close__c8v58n.png": {
+    "mtime": 1781245251.6078403,
+    "ast_hash": "c058a8c97bc7ef0d7414b074a5ed38d1",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/bench_wide__bl06xu.png": {
+    "mtime": 1781245252.4029756,
+    "ast_hash": "3abb2aabf3c8d86aca78c0c43b80c97e",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/deadlift_conv__1kk370m.png": {
+    "mtime": 1781245253.8468747,
+    "ast_hash": "ca649ecd7c5ffca2f0e3907828ad721d",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/deadlift_conv__1koke0d.png": {
+    "mtime": 1781245254.403712,
+    "ast_hash": "f6d139675fa9036f29bdbafefade860b",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/deadlift_sumo__1jd0wuf.png": {
+    "mtime": 1781245255.3004377,
+    "ast_hash": "5cfd866b3dc608836ffdb7fc5a6a6186",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/deadlift_sumo__1kj0keq.png": {
+    "mtime": 1781245256.0761518,
+    "ast_hash": "0ba81388bd706bcfdc49712a539ad862",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/squat_highbar__1kaqgmw.png": {
+    "mtime": 1781245256.950266,
+    "ast_hash": "aba06c1029e96db17e0ac5693d53f41b",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/squat_highbar__1kovzbg.png": {
+    "mtime": 1781245257.5367947,
+    "ast_hash": "e41017201de7994f30051834709a8651",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/squat_lowbar__1gkk44z.png": {
+    "mtime": 1781245258.2887473,
+    "ast_hash": "80ff6f68f0fc28de9dcad6696504f8e0",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets/squat_lowbar__1kn0yi5.png": {
+    "mtime": 1781245258.9716425,
+    "ast_hash": "bb046eec4d569ca00a2f591328bf2b06",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets_local/145 lb squat.png": {
+    "mtime": 1781245934.8077843,
+    "ast_hash": "3b4139aa3fa23a38d79077a71fdb0eb3",
+    "semantic_hash": ""
+  },
+  "cv-service/research/sheets_local/315 lb squat.png": {
+    "mtime": 1781245935.6073651,
+    "ast_hash": "5de90efc7f2e999a3b860c84a91f3ae0",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/135 lb bench RPE RPE 6.5.mp4.p0.png": {
+    "mtime": 1780807615.530724,
+    "ast_hash": "dfee6e67db3bd4c5d3febeca29d618d2",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/135 lb bench RPE RPE 6.5.mp4.p1.png": {
+    "mtime": 1780807615.5462277,
+    "ast_hash": "207bd52296e28ee7093973059e3259fb",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/135 lb bench RPE RPE 6.5.mp4.p2.png": {
+    "mtime": 1780807615.5632474,
+    "ast_hash": "9eceabb4a51fcdd278085d6367a90c49",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/135 lb bench RPE RPE 6.5.mp4.png": {
+    "mtime": 1780807580.3353863,
+    "ast_hash": "7a5bae294804e815506a7a1a2f487026",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150 kg bench RPE 9.mp4.p0.png": {
+    "mtime": 1780807615.5802572,
+    "ast_hash": "2d5744966bd80028efc2762faba08627",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150 kg bench RPE 9.mp4.p1.png": {
+    "mtime": 1780807615.5917635,
+    "ast_hash": "32566b7e53122a475d3c49e32b38f1fe",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150 kg bench RPE 9.mp4.p2.png": {
+    "mtime": 1780807615.601109,
+    "ast_hash": "985ea37dab06f3f5b4d04e7c639f7f34",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150 kg bench RPE 9.mp4.png": {
+    "mtime": 1780807581.3679912,
+    "ast_hash": "0672a2b127a10025758d8bfb77d7a3a8",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150lb bench RPE 6.mp4.p0.png": {
+    "mtime": 1780807615.6626122,
+    "ast_hash": "3c72457f71d0edfa0114d6eeb9d3ea24",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150lb bench RPE 6.mp4.p1.png": {
+    "mtime": 1780807615.6986377,
+    "ast_hash": "4911156acfbef0d21f39522b5217cb8c",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150lb bench RPE 6.mp4.p2.png": {
+    "mtime": 1780807615.734734,
+    "ast_hash": "c367e99b5ab1b654ee1fc1add8284e83",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/150lb bench RPE 6.mp4.png": {
+    "mtime": 1780807582.5553863,
+    "ast_hash": "c5a2f3a32e9f44adc5caf77c72309fa0",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/160 kg bench RPE 9.mp4.p0.png": {
+    "mtime": 1780807615.753163,
+    "ast_hash": "cd659e535e45c0eaa1d2d0a8477c7f85",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/160 kg bench RPE 9.mp4.p1.png": {
+    "mtime": 1780807615.76512,
+    "ast_hash": "5e85fb05a005e60a7168c2c144591ece",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/160 kg bench RPE 9.mp4.p2.png": {
+    "mtime": 1780807615.7773275,
+    "ast_hash": "cb5a0666a73df5bb363beab73b722d2d",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/160 kg bench RPE 9.mp4.png": {
+    "mtime": 1780807583.551039,
+    "ast_hash": "c080094246cad6830702fe7316b748af",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/310 lb bench RPE 7.mp4.p0.png": {
+    "mtime": 1780807615.7998047,
+    "ast_hash": "514ef68d03216048e5b92246aed6e2de",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/310 lb bench RPE 7.mp4.p1.png": {
+    "mtime": 1780807615.810312,
+    "ast_hash": "491270166522a2ad7b7a8358ba27d212",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/310 lb bench RPE 7.mp4.p2.png": {
+    "mtime": 1780807615.822546,
+    "ast_hash": "0e5661ba1a421c3cbfbf166e0e9a034c",
+    "semantic_hash": ""
+  },
+  "cv-service/yolo_probe/310 lb bench RPE 7.mp4.png": {
+    "mtime": 1780807584.4721825,
+    "ast_hash": "adb9a562d64b0c433c60ff846155734e",
+    "semantic_hash": ""
+  },
+  "public/landing/form-check.jpg": {
+    "mtime": 1781504416.0466497,
+    "ast_hash": "43d5fb8e290ed15fb583c4881b9991e9",
+    "semantic_hash": ""
+  },
+  "public/landing/nutrition.png": {
+    "mtime": 1781504416.0476506,
+    "ast_hash": "3fd23993fe801f7d905f1b591245ddf0",
+    "semantic_hash": ""
+  },
+  "public/landing/program.jpg": {
+    "mtime": 1781504416.0486522,
+    "ast_hash": "ad995cd76d8e90eb83ec9374d65e2155",
+    "semantic_hash": ""
+  },
+  "src/app/icon.svg": {
+    "mtime": 1781245089.7192857,
+    "ast_hash": "398c1b219e9a0dc420d4b4e8dff188d9",
+    "semantic_hash": ""
+  },
+  "ui-shots/landing-desktop.png": {
+    "mtime": 1781229613.9629111,
+    "ast_hash": "33aeedf23d43a6937811d5d2d5def7c1",
+    "semantic_hash": ""
+  },
+  "ui-shots/landing-mobile.png": {
+    "mtime": 1781229615.7646093,
+    "ast_hash": "929a2596fdc98e317ba3b54624a0aeee",
+    "semantic_hash": ""
+  },
+  "ui-shots/login-desktop.png": {
+    "mtime": 1781229614.955304,
+    "ast_hash": "84f34fb88921a58b79ac2c9366bd6b92",
+    "semantic_hash": ""
+  },
+  "ui-shots/login-mobile.png": {
+    "mtime": 1781229616.4753485,
+    "ast_hash": "93a950172b092eaa4bb183e3937154ba",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/bench__1jzn2i2.mp4": {
+    "mtime": 1781244905.8445346,
+    "ast_hash": "0798a9fa0aeecde121632541899811c1",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/bench__1k74bhj.mp4": {
+    "mtime": 1781244887.8350644,
+    "ast_hash": "bad37df262263e6e5cb13ecb055b898a",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/bench__1kp9loz.mp4": {
+    "mtime": 1781244891.1914473,
+    "ast_hash": "98776e6a63867c7b7babebd159238c98",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/bench_close__c8v58n.mp4": {
+    "mtime": 1781244926.1069584,
+    "ast_hash": "6e039b4eff6798bfdf1db758db59429e",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/bench_wide__bl06xu.mp4": {
+    "mtime": 1781244943.8821418,
+    "ast_hash": "f8c2089573370cf6b350e4414e7837d8",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/deadlift_conv__1kk370m.mp4": {
+    "mtime": 1781245015.728026,
+    "ast_hash": "025a7639803ee2547b3af6078642c8bc",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/deadlift_conv__1koke0d.mp4": {
+    "mtime": 1781245154.0972037,
+    "ast_hash": "eb8abbfd097f29482d15461b0bf0a6b8",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/deadlift_sumo__1jd0wuf.mp4": {
+    "mtime": 1781245169.0628765,
+    "ast_hash": "1f770d0d7c9bd3e648c7e2bd4fe3ecd3",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/deadlift_sumo__1kj0keq.mp4": {
+    "mtime": 1781245028.0624487,
+    "ast_hash": "56d350690fffcbbe00663c4b8c54c1db",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/squat_highbar__1kaqgmw.mp4": {
+    "mtime": 1781244961.7409408,
+    "ast_hash": "9d72caaede3ad6b7c2b214ad15c91755",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/squat_highbar__1kovzbg.mp4": {
+    "mtime": 1781244969.2594874,
+    "ast_hash": "7eeb52cbf76b140972e8cdb860c6e476",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/squat_lowbar__1gkk44z.mp4": {
+    "mtime": 1781245130.4275098,
+    "ast_hash": "b7d12ba2aca219c10975b4e8961456e0",
+    "semantic_hash": ""
+  },
+  "cv-service/research/clips/squat_lowbar__1kn0yi5.mp4": {
+    "mtime": 1781244981.7474627,
+    "ast_hash": "bb0d8997dd17fdd69f0817e71a8ea2ec",
+    "semantic_hash": ""
+  },
+  "cv-service/research/dl_test.mp4": {
+    "mtime": 1781244816.248818,
+    "ast_hash": "3aaf69d182194aa2e17f68ca7bdb44a8",
+    "semantic_hash": ""
+  },
+  "sample_videos/135 lb bench RPE RPE 6.5.mp4": {
+    "mtime": 1779066433.2010794,
+    "ast_hash": "9358137e8d1f259e070f1ac238c3ed68",
+    "semantic_hash": ""
+  },
+  "sample_videos/145 lb squat.mp4": {
+    "mtime": 1779329675.102759,
+    "ast_hash": "026972ad7e0dd68f1cbb28d9ebdcd0de",
+    "semantic_hash": ""
+  },
+  "sample_videos/150 kg bench RPE 9.mp4": {
+    "mtime": 1779054576.421809,
+    "ast_hash": "f21c9c936794b80883e119d8f9924953",
+    "semantic_hash": ""
+  },
+  "sample_videos/150lb bench RPE 6.mp4": {
+    "mtime": 1779047504.5662262,
+    "ast_hash": "760aacf9a92a450f62e4ad1c7c966f24",
+    "semantic_hash": ""
+  },
+  "sample_videos/155 lb deadlift.mp4": {
+    "mtime": 1779327922.0796423,
+    "ast_hash": "ecffdae3ebded6bcb0c9ab5ecbd09c3b",
+    "semantic_hash": ""
+  },
+  "sample_videos/160 kg bench RPE 9.mp4": {
+    "mtime": 1779065139.8341768,
+    "ast_hash": "2cf5af558b4d2c0f8f6e5f067094efbe",
+    "semantic_hash": ""
+  },
+  "sample_videos/225 lb deadlift.mp4": {
+    "mtime": 1779329320.1304421,
+    "ast_hash": "082db6a44c590c4e94c5d7c506bf2ae8",
+    "semantic_hash": ""
+  },
+  "sample_videos/255 lb deadlift.mp4": {
+    "mtime": 1779327077.5759513,
+    "ast_hash": "f83bfb1f1dfa3df92550fc6e6085f4e4",
+    "semantic_hash": ""
+  },
+  "sample_videos/290 lb deadlift.mp4": {
+    "mtime": 1779328881.083464,
+    "ast_hash": "c8c4d23a0cd6a836b90531e1c90aaacd",
+    "semantic_hash": ""
+  },
+  "sample_videos/310 lb bench RPE 7.mp4": {
+    "mtime": 1779054608.700768,
+    "ast_hash": "de675d74de07231c697576836ce22f4e",
+    "semantic_hash": ""
+  },
+  "sample_videos/315 lb squat.mp4": {
+    "mtime": 1779329816.4882078,
+    "ast_hash": "f2e80dd3cda6dfb914970b6a007ce02d",
+    "semantic_hash": ""
   }
 }
