@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "node --import tsx --test tests/readiness.test.ts tests/decision-rules.test.ts tests/weekly-review.test.ts tests/triage.test.ts tests/suggestions.test.ts tests/limits.test.ts",
+    "test:integration": "node --import tsx --test tests/admin-pool-regression.test.ts",
     "db:init": "tsx scripts/init-db.ts",
     "db:seed-coaches": "tsx scripts/seed-coaches.ts"
   },
