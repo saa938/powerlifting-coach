@@ -1,3 +1,4 @@
+import { requireAdminPage } from '@/lib/admin-auth';
 import { listReports } from '@/lib/network-data';
 import { Card } from '@/components/ui/Card';
 import { AdminActionButton } from '../AdminActionButton';
@@ -5,6 +6,7 @@ import { AdminActionButton } from '../AdminActionButton';
 export const dynamic = 'force-dynamic';
 
 export default async function AdminReportsPage() {
+  await requireAdminPage();
   const reports = await listReports('open');
 
   return (

@@ -1,6 +1,5 @@
-import { redirect } from 'next/navigation';
 import Link from 'next/link';
-import { getAdmin } from '@/lib/admin-auth';
+import { requireAdminPage } from '@/lib/admin-auth';
 import { LiftlyLogo } from '@/components/ui/LiftlyLogo';
 import { PageTransition } from '@/components/layout/PageTransition';
 
@@ -13,9 +12,9 @@ const NAV = [
 ];
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
-  const admin = await getAdmin();
   // Not an admin (or not logged in as a coach on the allowlist) → bounce out.
-  if (!admin) redirect('/coach/login');
+  // The pages gate themselves too; a layout gate alone races their data loads.
+  const admin = await requireAdminPage();
 
   return (
     <div className="min-h-screen bg-iron-950">
