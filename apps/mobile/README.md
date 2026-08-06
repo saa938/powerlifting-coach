@@ -72,7 +72,15 @@ cp apps/mobile/.env.example apps/mobile/.env
 
 ## 6. Build & submit (EAS — works entirely from Windows)
 
+Run these from `apps/mobile`, not the repo root — this is an npm-workspaces
+monorepo, and `eas`/`expo` commands read whichever `package.json`/`app.json`
+sit in the current directory. Running them from the root reads the *web app's*
+package.json (no `main` field, no `app/` router dir), which makes Metro fall
+back to the bare Expo entry point and fail to resolve `App`.
+
 ```bash
+cd apps/mobile
+
 npm i -g eas-cli
 eas login
 eas init                      # writes the real projectId into app.json (replace REPLACE_WITH_EAS_PROJECT_ID)
