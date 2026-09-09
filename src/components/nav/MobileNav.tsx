@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useClerk } from '@clerk/nextjs';
 import {
   LayoutDashboard,
   Dumbbell,
@@ -37,6 +38,7 @@ const secondary = [
 export function MobileNav() {
   const pathname = usePathname();
   const [moreOpen, setMoreOpen] = useState(false);
+  const { signOut } = useClerk();
   const moreActive = secondary.some((l) => pathname?.startsWith(l.href));
 
   return (
@@ -85,15 +87,16 @@ export function MobileNav() {
                 );
               })}
             </div>
-            <form action="/api/auth/logout" method="POST" className="mt-3">
+            <div className="mt-3">
               <button
-                type="submit"
+                type="button"
+                onClick={() => signOut({ redirectUrl: '/' })}
                 className="w-full flex items-center justify-center gap-2 py-3 font-body font-medium text-xs text-chalk-mute hover:text-blood chalk-border transition-colors"
               >
                 <LogOut className="w-4 h-4" />
                 Sign Out
               </button>
-            </form>
+            </div>
           </div>
         </div>
       )}

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BadgeCheck } from 'lucide-react';
+import { requireAdminPage } from '@/lib/admin-auth';
 import { listCoachesForAdmin, listCredentialQueue } from '@/lib/admin-data';
 import { Card, CardHeader } from '@/components/ui/Card';
 import { AdminActionButton } from './AdminActionButton';
@@ -7,6 +8,7 @@ import { AdminActionButton } from './AdminActionButton';
 export const dynamic = 'force-dynamic';
 
 export default async function AdminVerificationPage() {
+  await requireAdminPage();
   const [coaches, credentials] = await Promise.all([
     listCoachesForAdmin(),
     listCredentialQueue(),

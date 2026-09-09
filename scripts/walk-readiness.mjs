@@ -1,3 +1,12 @@
+// STALE — does not work since the move to Clerk auth. Kept for the flow it
+// documents, not because it runs.
+//
+// It authenticates the way the app no longer works: it sets a `pl_session` cookie holding a raw athlete id. Clerk sessions are
+// signed tokens minted by Clerk, so neither can be forged locally. Reviving
+// this means @clerk/testing — clerkSetup() plus setupClerkTestingToken() on the
+// browser context, signing in a dedicated test user with real Clerk keys.
+// Nobody has done that yet, so treat every assertion below as unverified.
+
 // Focused visual walk of Phase 3/4 UI: the optional readiness check-in, its
 // assessment banner + soft RPE cap, and the weekly-review card. Drives system
 // Edge via playwright-core, authenticates by setting the pl_session cookie.

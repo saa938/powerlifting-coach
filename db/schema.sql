@@ -3,16 +3,24 @@
 -- Run this ONCE in your Supabase project: Dashboard → SQL Editor → New query →
 -- paste → Run. It mirrors the old better-sqlite3 schema. `created_at` columns
 -- are millisecond epoch timestamps (BIGINT); `date` columns are 'YYYY-MM-DD'
--- text. All access is server-side under the app's own cookie auth, so RLS is
--- intentionally left off.
+-- text. Authentication is Clerk (see src/lib/auth.ts); all data access is
+-- server-side and gated in the app by athlete_id, so RLS is intentionally left
+-- off.
 
 create table if not exists athletes (
-  id           text primary key,
-  email        text unique not null,
-  name         text,
-  profile_json text,
-  created_at   bigint not null
+  id            text primary key,
+  email         text unique not null,
+  name          text,
+  profile_json  text,
+  -- Clerk user id (user_...). The auth provider's id is deliberately NOT the
+  -- primary key: fifteen tables cascade off athletes.id, so authenticating
+  -- against a separate column is what keeps a provider swap to one column.
+  -- Null until first sign-in, including for coach-invited roster rows.
+  clerk_user_id text,
+  created_at    bigint not null
 );
+
+create unique index if not exists idx_athletes_clerk_user_id on athletes (clerk_user_id);
 
 create table if not exists programs (
   id            text primary key,
@@ -120,11 +128,15 @@ create index if not exists idx_readiness_logs_athlete on readiness_logs(athlete_
 alter table athletes add column if not exists coached_by text;
 
 create table if not exists coaches (
-  id         text primary key,
-  email      text unique not null,
-  name       text,
-  created_at bigint not null
+  id            text primary key,
+  email         text unique not null,
+  name          text,
+  -- See athletes.clerk_user_id. Null until the coach's first Clerk sign-in.
+  clerk_user_id text,
+  created_at    bigint not null
 );
+
+create unique index if not exists idx_coaches_clerk_user_id on coaches (clerk_user_id);
 
 create table if not exists coach_athletes (
   coach_id   text not null references coaches(id) on delete cascade,

@@ -163,7 +163,8 @@ export default function TermsPage() {
       <Section id="third-party" n="12" title="Third-party services">
         <p>
           The Service relies on third parties, including Anthropic, PBC for AI, Modal Labs, Inc. for the
-          compute that runs our form-check analysis, Supabase, Inc. for authentication and data hosting,
+          compute that runs our form-check analysis, Clerk, Inc. for authentication, Supabase, Inc. for
+          data hosting,
           and Vercel, Inc. for application hosting, and may link to third-party sites. We are not
           responsible for third-party services or content, and your use of them may be governed by their
           own terms.

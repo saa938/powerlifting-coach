@@ -1,5 +1,10 @@
+import type { Metadata } from 'next';
 import { getSession } from '@/lib/auth';
 import { LandingExperience } from '@/components/landing/LandingExperience';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 const jsonLd = {
   '@context': 'https://schema.org',

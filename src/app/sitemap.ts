@@ -31,6 +31,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...blogEntries,
     {
+      url: 'https://liftly.tech/pricing',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://liftly.tech/coaches',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://liftly.tech/coaches/leaderboard',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    },
+    {
       url: 'https://liftly.tech/login',
       lastModified: new Date(),
       changeFrequency: 'monthly',

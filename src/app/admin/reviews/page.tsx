@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Star } from 'lucide-react';
+import { requireAdminPage } from '@/lib/admin-auth';
 import { listReviewsForModeration } from '@/lib/admin-data';
 import { Card } from '@/components/ui/Card';
 import { AdminActionButton } from '../AdminActionButton';
@@ -7,6 +8,7 @@ import { AdminActionButton } from '../AdminActionButton';
 export const dynamic = 'force-dynamic';
 
 export default async function AdminReviewsPage() {
+  await requireAdminPage();
   const reviews = await listReviewsForModeration();
 
   return (
