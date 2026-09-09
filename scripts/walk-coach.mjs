@@ -1,3 +1,12 @@
+// STALE — does not work since the move to Clerk auth. Kept for the flow it
+// documents, not because it runs.
+//
+// It authenticates the way the app no longer works: it POSTs an email to /api/coach/auth/login, a route deleted for letting anyone assume any coach session. Clerk sessions are
+// signed tokens minted by Clerk, so neither can be forged locally. Reviving
+// this means @clerk/testing — clerkSetup() plus setupClerkTestingToken() on the
+// browser context, signing in a dedicated test user with real Clerk keys.
+// Nobody has done that yet, so treat every assertion below as unverified.
+
 // Walk the coach-console loop end-to-end against a RUNNING dev server
 // (mirrors walk-loop.mjs / walk-readiness.mjs). Seeds a client straight into
 // the db, then exercises: coach login → roster add → first pass → approve

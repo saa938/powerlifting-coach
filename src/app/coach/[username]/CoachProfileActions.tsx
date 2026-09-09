@@ -29,7 +29,7 @@ export function CoachProfileActions({
 
   // A coach viewing a profile (or an anonymous visitor) can't apply/save as an
   // athlete — funnel them to athlete login.
-  const loginHref = `/login?redirect=/coach/${username}`;
+  const loginHref = `/login?redirect_url=/coach/${username}`;
 
   if (!isLoggedIn || isCoachViewer) {
     return (

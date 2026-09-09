@@ -194,10 +194,10 @@ export function HeroScene({ className }: { className?: string }) {
 
     // ---- Render loop ------------------------------------------------------
     let frameId = 0;
-    const clock = new THREE.Clock();
+    const startTime = performance.now();
 
     const renderFrame = () => {
-      const t = clock.getElapsedTime();
+      const t = (performance.now() - startTime) / 1000;
 
       eased.x += (pointer.x - eased.x) * 0.04;
       eased.y += (pointer.y - eased.y) * 0.04;
@@ -212,6 +212,14 @@ export function HeroScene({ className }: { className?: string }) {
 
       renderer.render(scene, camera);
     };
+
+    // Fade the scene in once the first frame exists (replaces a GSAP .from()
+    // in the parent, which can't reliably target this late-mounted element).
+    mount.style.opacity = '0';
+    mount.style.transition = 'opacity 1.4s ease-in-out';
+    requestAnimationFrame(() => {
+      mount.style.opacity = '1';
+    });
 
     if (prefersReducedMotion) {
       renderFrame();

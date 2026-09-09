@@ -137,8 +137,9 @@ export function LandingExperience({ dashboardHref }: { dashboardHref?: string })
             '-=0.35'
           )
           .from('.hero-sub', { y: 28, autoAlpha: 0, duration: 0.7 }, '-=0.5')
-          .from('.hero-cta', { y: 24, autoAlpha: 0, duration: 0.6, stagger: 0.08 }, '-=0.45')
-          .from('.hero-canvas', { autoAlpha: 0, duration: 1.4, ease: 'power2.inOut' }, 0.2);
+          .from('.hero-cta', { y: 24, autoAlpha: 0, duration: 0.6, stagger: 0.08 }, '-=0.45');
+        // The Three.js canvas fades itself in via CSS once its first frame
+        // renders (HeroScene mounts client-side, after this timeline is built).
 
         // ---- Nav: hide on scroll down, return on scroll up -------------------
         const nav = root.querySelector('.landing-nav');
@@ -353,7 +354,7 @@ export function LandingExperience({ dashboardHref }: { dashboardHref?: string })
 
       {/* ============================== HERO ============================== */}
       <section className="hero-section relative flex min-h-[100svh] flex-col justify-center overflow-hidden">
-        <HeroScene className="hero-canvas absolute inset-0" />
+        <HeroScene className="absolute inset-0" />
         {/* Legibility scrim behind the copy + bottom fade into the next section */}
         <div className="pointer-events-none absolute inset-y-0 left-0 w-[72%] bg-gradient-to-r from-iron-950/85 via-iron-950/35 to-transparent" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent to-iron-950" />

@@ -248,7 +248,11 @@ export default function PrivacyPage() {
               form-check computer-vision analysis on uploaded video.
             </>,
             <>
-              <strong className="text-chalk">Supabase, Inc.</strong> — authentication and database hosting.
+              <strong className="text-chalk">Clerk, Inc.</strong> — user authentication and account
+              management.
+            </>,
+            <>
+              <strong className="text-chalk">Supabase, Inc.</strong> — database hosting.
             </>,
             <>
               <strong className="text-chalk">Vercel, Inc.</strong> — application hosting and
@@ -271,7 +275,7 @@ export default function PrivacyPage() {
       <Section id="international" n="10" title="International transfers">
         <p>
           We and our providers process your data in countries other than your own, including the United
-          States, where Anthropic, Modal, Supabase, and Vercel operate. When we move personal data out of
+          States, where Anthropic, Clerk, Modal, Supabase, and Vercel operate. When we move personal data out of
           the EEA, we rely on the European Commission’s Standard Contractual Clauses (Commission
           Implementing Decision (EU) 2021/914) or an adequacy decision under Article 45 of the GDPR. For
           transfers out of the UK we use the UK International Data Transfer Agreement or the UK Addendum to

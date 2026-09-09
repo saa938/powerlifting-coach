@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useClerk } from '@clerk/nextjs';
 import {
   LayoutDashboard,
   Dumbbell,
@@ -31,6 +32,7 @@ const links = [
 
 export function SideNav() {
   const pathname = usePathname();
+  const { signOut } = useClerk();
   return (
     <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col border-r border-iron-800 bg-iron-950/80 backdrop-blur-xl lg:flex">
       <div className="border-b border-iron-800 p-5">
@@ -72,15 +74,16 @@ export function SideNav() {
         <UpgradeNavButton className="w-full" />
       </div>
 
-      <form action="/api/auth/logout" method="POST" className="border-t border-iron-800">
+      <div className="border-t border-iron-800">
         <button
-          type="submit"
+          type="button"
+          onClick={() => signOut({ redirectUrl: '/' })}
           className="group flex w-full items-center gap-3 px-5 py-4 font-body text-sm font-medium text-chalk-mute transition-colors hover:bg-iron-900 hover:text-blood"
         >
           <LogOut className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
           Sign Out
         </button>
-      </form>
+      </div>
     </aside>
   );
 }
