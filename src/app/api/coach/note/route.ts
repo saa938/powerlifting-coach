@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { requireSession } from '@/lib/auth';
 import { queryOne } from '@/lib/db';
 import { aiGenerate, isAiKeyError } from '@/lib/ai';
+import { assertAiAllowed, recordAiCall } from '@/lib/limits';
 import { computeHandoff } from '@/lib/handoff';
 import { liftOf } from '@/lib/programming';
 import { assessReadinessLog } from '@/lib/readiness';
@@ -113,6 +114,10 @@ export async function POST(req: NextRequest) {
   });
 
   try {
+    // Meter same as every other AI feature; quota/rate-limit errors fall
+    // through to the catch below and silently degrade like any other failure
+    // — this note is best-effort and the loop never depends on it.
+    await assertAiAllowed('athlete', session.id);
     const note = await aiGenerate({
       system,
       messages: [{ role: 'user', content: user }],
@@ -120,9 +125,11 @@ export async function POST(req: NextRequest) {
       temperature: 0.6,
     });
     const clean = note.replace(/^["'\s]+|["'\s]+$/g, '').split('\n')[0].trim();
+    if (clean) await recordAiCall('athlete', session.id, 'coach-note');
     return NextResponse.json({ note: clean || null });
   } catch (err) {
-    // No key configured, or the provider hiccupped — silently degrade.
+    // No key configured, quota/rate-limit exhausted, or the provider
+    // hiccupped — silently degrade.
     if (isAiKeyError(err)) return NextResponse.json({ note: null });
     return NextResponse.json({ note: null });
   }

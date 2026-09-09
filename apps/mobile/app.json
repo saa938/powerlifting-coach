@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Liftly",
+    "slug": "liftly",
+    "scheme": "liftly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.liftly.liftly",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.liftly.liftly",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-video",
+      "expo-font",
+      "expo-splash-screen",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Liftly uses the camera to film your lifts for form analysis."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Liftly accesses your videos so you can upload a lift for form analysis."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5ca3f14-4e51-4d6f-be50-cb0e316dcf32"
+      },
+      "router": {}
+    },
+    "owner": "saa938",
+    "updates": {
+      "url": "https://u.expo.dev/e5ca3f14-4e51-4d6f-be50-cb0e316dcf32"
+    }
+  }
+}

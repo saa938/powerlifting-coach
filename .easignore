@@ -1,0 +1,50 @@
+# Controls what `eas build` uploads for the mobile app. Unlike .gitignore,
+# this file REPLACES .gitignore for the upload (not merged with it) — so
+# everything that needs to stay out has to be listed here explicitly, even
+# things .gitignore already covers.
+#
+# This is a monorepo: the mobile app lives in apps/mobile and depends on
+# packages/* (workspace packages) plus the root package.json/lockfile. Those
+# stay included. Everything below is unrelated to building the Expo app and
+# was making the upload far bigger and slower than it needs to be.
+
+# Dependencies — EAS runs its own install
+node_modules/
+
+# Root Next.js web app — separate app, not needed to build mobile
+/src/
+/public/
+/.next/
+/next.config.mjs
+/next-env.d.ts
+/postcss.config.mjs
+/tailwind.config.ts
+
+# Python CV sidecar — separate service; its venv/model weights alone are gigabytes
+/cv-service/
+
+# Local-only data, docs, and artifacts irrelevant to the mobile build
+/sample_videos/
+/data/
+/db/
+/docs/
+/tests/
+/scripts/
+/legal-preview/
+/ui-shots/
+/graphify-out/
+/.obsidian/
+/.understand-anything/
+/.walk-screens/
+/.claude/
+/.codex/
+
+# Root secrets (Stripe/DB/LLM keys for the web app) — never needed by mobile
+/.env.local
+/.env.example
+
+# Build artifacts / stray files
+*.tsbuildinfo
+*.log
+*.stackdump
+.DS_Store

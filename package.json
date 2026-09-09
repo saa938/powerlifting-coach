@@ -2,11 +2,16 @@
   "name": "powerlifting-coach",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/readiness.test.ts tests/decision-rules.test.ts tests/weekly-review.test.ts tests/triage.test.ts tests/suggestions.test.ts tests/limits.test.ts",
     "test:integration": "node --import tsx --test tests/admin-pool-regression.test.ts",
     "db:init": "tsx scripts/init-db.ts",
@@ -15,13 +20,10 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.1",
-    "@capacitor/android": "^8.4.0",
-    "@capacitor/cli": "^8.4.0",
-    "@capacitor/core": "^8.4.0",
-    "@capacitor/ios": "^8.4.0",
     "@clerk/backend": "^3.16.13",
     "@clerk/nextjs": "^6.39.6",
     "@google/genai": "^2.7.0",
+    "@liftly/shared-types": "*",
     "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "gsap": "^3.15.0",
@@ -31,6 +33,8 @@
     "postgres": "^3.4.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-native-purchases": "^10.6.0",
+    "react-native-purchases-ui": "^10.6.0",
     "recharts": "^2.13.3",
     "stripe": "^22.2.1",
     "tailwind-merge": "^2.5.4",
@@ -49,6 +53,7 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.14",
     "tsx": "^4.19.2",
+    "turbo": "^2.3.0",
     "typescript": "^5.6.3"
   }
 }

@@ -6,6 +6,7 @@ import {
   saveCoachFormFeedback,
 } from '@/lib/form-review-data';
 import { aiGenerate, isAiKeyError } from '@/lib/ai';
+import { assertAiAllowed, recordAiCall, QuotaError, RateLimitError } from '@/lib/limits';
 
 const Body = z.object({
   formCheckId: z.string().min(1),
@@ -32,6 +33,24 @@ export async function POST(req: NextRequest) {
   if (!fc) return NextResponse.json({ error: 'not found' }, { status: 404 });
 
   if (parsed.data.draft) {
+    try {
+      await assertAiAllowed('coach', coach.id);
+    } catch (err) {
+      if (err instanceof QuotaError) {
+        return NextResponse.json(
+          { error: 'You’ve reached your AI draft limit for this period. Upgrade for more.', quota: err.info },
+          { status: 402 },
+        );
+      }
+      if (err instanceof RateLimitError) {
+        return NextResponse.json(
+          { error: 'Too many AI requests — wait a moment and try again.' },
+          { status: 429 },
+        );
+      }
+      throw err;
+    }
+
     const user = JSON.stringify({
       lift: fc.lift,
       loadKg: fc.loadKg,
@@ -51,6 +70,7 @@ export async function POST(req: NextRequest) {
       const msg = err instanceof Error ? err.message : 'AI call failed';
       return NextResponse.json({ error: msg }, { status: isAiKeyError(err) ? 400 : 502 });
     }
+    await recordAiCall('coach', coach.id, 'coach-form-feedback-draft');
     return NextResponse.json({ ok: true, draft: text.trim() });
   }
 

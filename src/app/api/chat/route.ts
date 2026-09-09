@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { requireSession } from '@/lib/auth';
 import { execute, query, queryOne, uuid } from '@/lib/db';
 import { aiStream, isAiKeyError } from '@/lib/ai';
-import { assertAiQuota, recordAiCall, QuotaError } from '@/lib/limits';
+import { assertAiAllowed, recordAiCall, QuotaError, RateLimitError } from '@/lib/limits';
 import { buildChatSystemPrompt, type ChatSessionSummary } from '@/lib/prompts/chat';
 import { assessReadinessLog } from '@/lib/readiness';
 import type {
@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 
   // Meter the "Gemini API key uses" against the athlete's plan.
   try {
-    await assertAiQuota('athlete', session.id);
+    await assertAiAllowed('athlete', session.id);
   } catch (err) {
     if (err instanceof QuotaError) {
       return new Response(
@@ -39,6 +39,12 @@ export async function POST(req: NextRequest) {
           quota: err.info,
         }),
         { status: 402, headers: { 'content-type': 'application/json' } },
+      );
+    }
+    if (err instanceof RateLimitError) {
+      return new Response(
+        JSON.stringify({ error: 'Too many messages at once — wait a moment and try again.' }),
+        { status: 429, headers: { 'content-type': 'application/json' } },
       );
     }
     throw err;

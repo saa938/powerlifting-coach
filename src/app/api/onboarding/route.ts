@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { requireSession } from '@/lib/auth';
 import { execute, uuid } from '@/lib/db';
 import { aiGenerate, safeParseJson } from '@/lib/ai';
-import { assertAiQuota, recordAiCall, QuotaError } from '@/lib/limits';
+import { assertAiAllowed, recordAiCall, QuotaError, RateLimitError } from '@/lib/limits';
 import { PROGRAM_SYSTEM_PROMPT, buildProgramUserPrompt } from '@/lib/prompts/program';
 import { noviceMaxEstimate } from '@/lib/calculations';
 import type { AthleteProfile, Program } from '@/lib/types';
@@ -55,12 +55,18 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    await assertAiQuota('athlete', session.id);
+    await assertAiAllowed('athlete', session.id);
   } catch (err) {
     if (err instanceof QuotaError) {
       return NextResponse.json(
         { error: 'You’ve reached your AI generation limit for this period. Upgrade for more.', quota: err.info },
         { status: 402 },
+      );
+    }
+    if (err instanceof RateLimitError) {
+      return NextResponse.json(
+        { error: 'Too many AI requests — wait a moment and try again.' },
+        { status: 429 },
       );
     }
     throw err;

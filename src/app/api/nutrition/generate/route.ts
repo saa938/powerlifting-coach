@@ -4,7 +4,7 @@ import { requireSession } from '@/lib/auth';
 import { execute, queryOne, uuid } from '@/lib/db';
 import { isAiKeyError } from '@/lib/ai';
 import type { AiMessage } from '@/lib/ai';
-import { assertAiQuota, recordAiCall, QuotaError } from '@/lib/limits';
+import { assertAiAllowed, recordAiCall, QuotaError, RateLimitError } from '@/lib/limits';
 import { buildNutritionUserPrompt } from '@/lib/prompts/nutrition';
 import { generateValidatedPlan } from '@/lib/nutrition-generate';
 import { macroTargets } from '@/lib/calculations';
@@ -21,12 +21,18 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    await assertAiQuota('athlete', session.id);
+    await assertAiAllowed('athlete', session.id);
   } catch (err) {
     if (err instanceof QuotaError) {
       return NextResponse.json(
         { error: 'You’ve reached your AI generation limit for this period. Upgrade for more.', quota: err.info },
         { status: 402 },
+      );
+    }
+    if (err instanceof RateLimitError) {
+      return NextResponse.json(
+        { error: 'Too many AI requests — wait a moment and try again.' },
+        { status: 429 },
       );
     }
     throw err;

@@ -11,8 +11,12 @@ Block periodization that adapts every session. Coach-quality form check from you
 - Python CV sidecar (`cv-service/`) — FastAPI + MediaPipe pose; bar path, rep timing, velocity-loss → RPE estimation
 - Stripe — Pro ($12/mo, $99/yr) and Coach ($20/seat/mo, quantity = active clients) subscriptions + usage metering
 - Recharts — e1RM, bodyweight, and weekly tonnage charts
-- Capacitor — Android/iOS shells
+- Expo + React Native (`apps/mobile`) — iOS/Android app: expo-router, NativeWind, RevenueCat purchases
 - GSAP + Lenis + Three.js — landing page
+
+Npm workspaces (`apps/*`, `packages/*`) with Turborepo: the Next.js app lives at the
+repo root, the mobile app in `apps/mobile`, and shared code in `packages/shared-types`
+and `packages/api-client`.
 
 ## Setup
 

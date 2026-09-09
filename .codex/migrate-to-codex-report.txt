@@ -1,0 +1,16 @@
+Migration inventory:
+  active: instruction files - 2 found
+    - CLAUDE.md
+    - AGENTS.md
+  inactive: skills - none found
+  inactive: command sources - none found
+  inactive: subagents - none found
+Migration surfaces:
+  active: AGENTS.md - 1 instruction file(s) found.
+  inactive: skills - No skills found.
+  active: MCP config - 0 MCP server(s) converted into config.toml.
+  inactive: subagents - No subagents found.
+Migration report:
+  symlinked: AGENTS.md - Linked to C:\Users\ashay\powerlifting-coach\CLAUDE.md.
+  rewritten: .codex/hooks.json - Rewritten for Codex hooks; review behavior before relying on it. Codex hooks require `[features].codex_hooks = true`, only execute `command` handlers, skip `async` / `prompt` / `agent` handlers, ignore `matcher` for `UserPromptSubmit` and `Stop`, and `PreToolUse` / `PostToolUse` currently run for shell commands only.
+  rewritten: .codex/config.toml - Converted 0 MCP server entries.
